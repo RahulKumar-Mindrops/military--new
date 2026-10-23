@@ -409,4 +409,44 @@
     }
   }, { passive: true });
 
+  // ---------------------------------------------------------------------------
+  // 7. Mobile nav toggle (reliable fallback for hamburger)
+  // ---------------------------------------------------------------------------
+  const navToggle = document.querySelector('.header-btn-collapse-nav');
+  const mainNav = document.getElementById('portoMainNavbar');
+
+  if (navToggle && mainNav) {
+    const setNavOpen = (open) => {
+      mainNav.classList.toggle('show', open);
+      mainNav.classList.toggle('is-open', open);
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      navToggle.classList.toggle('is-active', open);
+      const icon = navToggle.querySelector('i');
+      if (icon) {
+        icon.classList.toggle('fa-bars', !open);
+        icon.classList.toggle('fa-times', open);
+      }
+    };
+
+    navToggle.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const willOpen = !mainNav.classList.contains('show') && !mainNav.classList.contains('is-open');
+      setNavOpen(willOpen);
+    });
+
+    mainNav.querySelectorAll('a.nav-link').forEach((link) => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth < 1200) setNavOpen(false);
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (window.innerWidth >= 1200) return;
+      if (!mainNav.classList.contains('show') && !mainNav.classList.contains('is-open')) return;
+      if (mainNav.contains(e.target) || navToggle.contains(e.target)) return;
+      setNavOpen(false);
+    });
+  }
+
 })();
