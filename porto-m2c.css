@@ -5,12 +5,12 @@
    ========================================================================== */
 
 :root {
-  --m2c-gold: #C9A227;
-  --m2c-gold-bright: #E0B83A;
-  --m2c-gold-deep: #A8861A;
-  --m2c-olive: #29270B;
-  --m2c-olive-mid: #3D3A14;
-  --m2c-btn-ink: #1A1608;
+  --m2c-gold: #4B5320;
+  --m2c-gold-bright: #5D6629;
+  --m2c-gold-deep: #3F461B;
+  --m2c-olive: #4B5320;
+  --m2c-olive-mid: #3A4119;
+  --m2c-btn-ink: #ffffff;
   --m2c-btn-radius: 6px;
 }
 
@@ -39,7 +39,7 @@
   background-image: none !important;
   border: 1.5px solid var(--m2c-gold) !important;
   color: var(--m2c-btn-ink) !important;
-  box-shadow: 0 4px 14px rgba(201, 162, 39, 0.28) !important;
+  box-shadow: 0 4px 14px rgba(75, 83, 32, 0.28) !important;
 }
 
 .btn-gradient:not(.btn-outline):hover,
@@ -51,7 +51,7 @@
   border-color: var(--m2c-gold-bright) !important;
   color: var(--m2c-btn-ink) !important;
   transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(201, 162, 39, 0.38) !important;
+  box-shadow: 0 6px 18px rgba(75, 83, 32, 0.38) !important;
 }
 
 .btn-secondary.btn-outline,
@@ -521,7 +521,7 @@ a {
   background: var(--m2c-gold) !important;
   color: var(--m2c-btn-ink) !important;
   border: 1.5px solid var(--m2c-gold) !important;
-  box-shadow: 0 4px 14px rgba(201, 162, 39, 0.3);
+  box-shadow: 0 4px 14px rgba(75, 83, 32, 0.3);
 }
 
 .header-btn-signup:hover {
@@ -529,7 +529,7 @@ a {
   border-color: var(--m2c-gold-bright) !important;
   color: var(--m2c-btn-ink) !important;
   transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(201, 162, 39, 0.4);
+  box-shadow: 0 6px 18px rgba(75, 83, 32, 0.4);
 }
 
 /* --------------------------------------------------------------------------
@@ -696,7 +696,7 @@ a {
   background: var(--m2c-gold) !important;
   color: var(--m2c-btn-ink) !important;
   border-color: var(--m2c-gold) !important;
-  box-shadow: 0 4px 12px rgba(201, 162, 39, 0.28);
+  box-shadow: 0 4px 12px rgba(75, 83, 32, 0.28);
 }
 
 .jobs-search-wrap {
@@ -1067,7 +1067,7 @@ a {
   color: var(--m2c-btn-ink);
   border-radius: var(--m2c-btn-radius);
   padding: 10px 20px;
-  box-shadow: 0 8px 24px rgba(201, 162, 39, 0.4);
+  box-shadow: 0 8px 24px rgba(75, 83, 32, 0.4);
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -1083,7 +1083,7 @@ a {
 .porto-float-help:hover {
   background: var(--m2c-gold-bright);
   transform: translateY(-3px);
-  box-shadow: 0 12px 28px rgba(201, 162, 39, 0.5);
+  box-shadow: 0 12px 28px rgba(75, 83, 32, 0.5);
 }
 
 /* --------------------------------------------------------------------------
@@ -1144,13 +1144,13 @@ img {
     height: 42px;
     border-radius: var(--m2c-btn-radius);
     background: var(--m2c-olive);
-    color: var(--m2c-gold);
+    color: #ffffff;
     border: 0;
   }
 
   #header .header-btn-collapse-nav.is-active {
-    background: var(--m2c-gold);
-    color: var(--m2c-btn-ink);
+    background: var(--m2c-gold-bright);
+    color: #ffffff;
   }
 
   .section-hero-m2c .hero-container-m2c {
