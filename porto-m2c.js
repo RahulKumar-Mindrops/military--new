@@ -249,11 +249,11 @@
             ` : ''}
             <p class="job-desc-snippet">${job.desc}</p>
           </div>
-          <div class="pt-3 border-top mt-2 d-flex gap-2">
-            <a href="${job.applyUrl}" target="_blank" rel="noopener" class="btn btn-gradient btn-rounded flex-grow-1 text-center py-2 text-2 font-weight-bold">
+          <div class="pt-3 border-top mt-2 d-flex flex-wrap gap-2 job-card-actions">
+            <a href="${job.applyUrl}" target="_blank" rel="noopener" class="btn btn-gradient btn-sm text-center font-weight-bold">
               Apply Now
             </a>
-            <button type="button" class="btn btn-secondary btn-outline btn-rounded flex-grow-1 py-2 text-2 font-weight-bold btn-view-job" data-job-id="${job.id}">
+            <button type="button" class="btn btn-secondary btn-outline btn-sm font-weight-bold btn-view-job" data-job-id="${job.id}">
               View Details
             </button>
           </div>

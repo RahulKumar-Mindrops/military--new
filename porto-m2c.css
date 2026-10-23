@@ -22,14 +22,47 @@
 .jobs-filter-btn {
   font-family: Avenir, "Avenir Next", "Nunito Sans", "Poppins", sans-serif !important;
   font-weight: 700 !important;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
+  white-space: nowrap;
+  width: auto !important;
+  max-width: 100%;
   border-radius: var(--m2c-btn-radius) !important;
+  padding: 0.45rem 0.95rem !important;
+  font-size: 0.72rem !important;
+  line-height: 1.25 !important;
   transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn.px-5,
+.btn.py-3,
+.btn.px-4,
+.btn.py-2 {
+  padding: 0.5rem 1.1rem !important;
+}
+
+.btn.text-3 {
+  font-size: 0.75rem !important;
+}
+
+.btn-sm,
+.btn.btn-sm {
+  padding: 0.4rem 0.85rem !important;
+  font-size: 0.7rem !important;
 }
 
 .btn-rounded {
   border-radius: var(--m2c-btn-radius) !important;
+}
+
+.job-card-actions {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.job-card-actions .btn {
+  flex: 0 0 auto !important;
+  width: auto !important;
 }
 
 .btn-gradient:not(.btn-outline),
@@ -490,18 +523,20 @@ a {
 }
 
 .header-btn-action {
-  font-size: 12px;
+  font-size: 0.7rem !important;
   font-weight: 700;
-  padding: 9px 16px;
+  padding: 0.42rem 0.85rem !important;
   border-radius: var(--m2c-btn-radius) !important;
-  margin-left: 8px;
+  margin-left: 6px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  letter-spacing: 0.08em;
+  gap: 6px;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   line-height: 1;
+  white-space: nowrap;
+  width: auto !important;
   transition: all 0.25s ease;
 }
 
@@ -677,11 +712,13 @@ a {
   color: #555;
   border: 1.5px solid transparent;
   border-radius: var(--m2c-btn-radius) !important;
-  padding: 8px 16px;
-  font-size: 12px;
+  padding: 0.4rem 0.8rem !important;
+  font-size: 0.68rem !important;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
+  white-space: nowrap;
+  width: auto !important;
   cursor: pointer;
   transition: all 0.25s ease;
 }
@@ -810,17 +847,18 @@ a {
 }
 
 .btn-view-job {
-  width: 100%;
+  width: auto !important;
   text-align: center;
-  background: #f7f8fa;
+  background: transparent;
   color: var(--m2c-olive);
-  border: 1.5px solid #e5e7eb;
+  border: 1.5px solid var(--m2c-olive);
   border-radius: var(--m2c-btn-radius) !important;
-  padding: 10px 16px;
-  font-size: 12px;
+  padding: 0.4rem 0.85rem !important;
+  font-size: 0.7rem !important;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
+  white-space: nowrap;
   transition: all 0.25s ease;
   display: inline-flex;
   align-items: center;
@@ -1174,10 +1212,10 @@ img {
   }
 
   .hero-cta-m2c .btn {
-    flex: 1 1 auto;
+    flex: 0 0 auto;
+    width: auto !important;
     text-align: center;
     justify-content: center;
-    min-width: min(100%, 160px);
   }
 
   .hero-image-wrap {
@@ -1245,11 +1283,13 @@ img {
   }
 
   .plan-footer .btn {
-    width: 100%;
+    width: auto !important;
   }
 
   .plan-footer.d-flex {
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
   }
 
   #footer .container {
@@ -1297,13 +1337,12 @@ img {
   }
 
   .hero-cta-m2c {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .hero-cta-m2c .btn {
-    width: 100%;
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
+    width: auto !important;
   }
 
   .hero-image-wrap img {
@@ -1371,12 +1410,13 @@ img {
     padding: 18px;
   }
 
-  .job-card-porto .d-flex.gap-2 {
-    flex-direction: column;
+  .job-card-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .job-card-porto .btn {
-    width: 100%;
+    width: auto !important;
   }
 
   .our-blog .container {
@@ -1396,8 +1436,8 @@ img {
   }
 
   .btn.px-5 {
-    padding-left: 1.35rem !important;
-    padding-right: 1.35rem !important;
+    padding-left: 0.95rem !important;
+    padding-right: 0.95rem !important;
   }
 
   #footer {
