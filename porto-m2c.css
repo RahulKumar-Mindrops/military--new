@@ -4,6 +4,103 @@
    responsive behavior of Porto Demo SEO 2 while supporting M2C features.
    ========================================================================== */
 
+:root {
+  --m2c-gold: #C9A227;
+  --m2c-gold-bright: #E0B83A;
+  --m2c-gold-deep: #A8861A;
+  --m2c-olive: #29270B;
+  --m2c-olive-mid: #3D3A14;
+  --m2c-btn-ink: #1A1608;
+  --m2c-btn-radius: 6px;
+}
+
+/* --------------------------------------------------------------------------
+   Military button system (gold / olive — matches SIGNUP style)
+   -------------------------------------------------------------------------- */
+.btn,
+.header-btn-action,
+.jobs-filter-btn {
+  font-family: Avenir, "Avenir Next", "Nunito Sans", "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: var(--m2c-btn-radius) !important;
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn-rounded {
+  border-radius: var(--m2c-btn-radius) !important;
+}
+
+.btn-gradient:not(.btn-outline),
+.btn-gradient-primary:not(.btn-outline),
+.btn.btn-gradient {
+  background: var(--m2c-gold) !important;
+  background-image: none !important;
+  border: 1.5px solid var(--m2c-gold) !important;
+  color: var(--m2c-btn-ink) !important;
+  box-shadow: 0 4px 14px rgba(201, 162, 39, 0.28) !important;
+}
+
+.btn-gradient:not(.btn-outline):hover,
+.btn-gradient:not(.btn-outline):focus,
+.btn-gradient-primary:not(.btn-outline):hover,
+.btn.btn-gradient:hover {
+  background: var(--m2c-gold-bright) !important;
+  background-image: none !important;
+  border-color: var(--m2c-gold-bright) !important;
+  color: var(--m2c-btn-ink) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(201, 162, 39, 0.38) !important;
+}
+
+.btn-secondary.btn-outline,
+.btn.btn-secondary.btn-outline,
+.btn-outline-secondary {
+  background: transparent !important;
+  border: 1.5px solid var(--m2c-olive) !important;
+  color: var(--m2c-olive) !important;
+  box-shadow: none !important;
+}
+
+.btn-secondary.btn-outline:hover,
+.btn.btn-secondary.btn-outline:hover {
+  background: var(--m2c-olive) !important;
+  border-color: var(--m2c-olive) !important;
+  color: #ffffff !important;
+}
+
+.btn-tertiary,
+.btn.btn-tertiary {
+  background: var(--m2c-olive) !important;
+  border-color: var(--m2c-olive) !important;
+  color: #ffffff !important;
+}
+
+.btn-tertiary:hover,
+.btn.btn-tertiary:hover {
+  background: var(--m2c-olive-mid) !important;
+  border-color: var(--m2c-olive-mid) !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-light {
+  border: 1.5px solid rgba(255, 255, 255, 0.55) !important;
+  color: #ffffff !important;
+  background: transparent !important;
+}
+
+.btn-outline-light:hover {
+  background: var(--m2c-gold) !important;
+  border-color: var(--m2c-gold) !important;
+  color: var(--m2c-btn-ink) !important;
+}
+
+.btn i,
+.header-btn-action i {
+  font-size: 0.95em;
+}
+
 /* --------------------------------------------------------------------------
    1. Typography & Global Resets
    -------------------------------------------------------------------------- */
@@ -393,38 +490,46 @@ a {
 }
 
 .header-btn-action {
-  font-size: 13px;
-  font-weight: 600;
-  padding: 8px 18px;
-  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 9px 16px;
+  border-radius: var(--m2c-btn-radius) !important;
   margin-left: 8px;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  transition: all 0.3s ease;
+  justify-content: center;
+  gap: 8px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
+  transition: all 0.25s ease;
 }
 
 .header-btn-login {
-  color: var(--quaternary, #1B1B1B);
-  border: 1.5px solid #dcdde1;
+  color: var(--m2c-olive);
+  border: 1.5px solid var(--m2c-olive);
   background: #ffffff;
 }
 
 .header-btn-login:hover {
-  border-color: var(--primary, #e23c8e);
-  color: var(--primary, #e23c8e);
+  background: var(--m2c-olive);
+  border-color: var(--m2c-olive);
+  color: #ffffff;
 }
 
 .header-btn-signup {
-  background: linear-gradient(135deg, var(--primary, #e23c8e) 0%, var(--secondary, #a33188) 100%);
-  color: #ffffff !important;
-  border: 0;
-  box-shadow: 0 4px 14px rgba(226, 60, 142, 0.35);
+  background: var(--m2c-gold) !important;
+  color: var(--m2c-btn-ink) !important;
+  border: 1.5px solid var(--m2c-gold) !important;
+  box-shadow: 0 4px 14px rgba(201, 162, 39, 0.3);
 }
 
 .header-btn-signup:hover {
+  background: var(--m2c-gold-bright) !important;
+  border-color: var(--m2c-gold-bright) !important;
+  color: var(--m2c-btn-ink) !important;
   transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(226, 60, 142, 0.45);
+  box-shadow: 0 6px 18px rgba(201, 162, 39, 0.4);
 }
 
 /* --------------------------------------------------------------------------
@@ -570,24 +675,28 @@ a {
 .jobs-filter-btn {
   background: #f1f2f6;
   color: #555;
-  border: 0;
-  border-radius: 20px;
-  padding: 7px 18px;
-  font-size: 13.5px;
-  font-weight: 600;
+  border: 1.5px solid transparent;
+  border-radius: var(--m2c-btn-radius) !important;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   cursor: pointer;
   transition: all 0.25s ease;
 }
 
 .jobs-filter-btn:hover {
-  background: #e4e6eb;
-  color: #111;
+  background: #ebe8dc;
+  color: var(--m2c-olive);
+  border-color: rgba(41, 39, 11, 0.2);
 }
 
 .jobs-filter-btn.is-active {
-  background: linear-gradient(135deg, var(--primary, #e23c8e) 0%, var(--secondary, #a33188) 100%);
-  color: #ffffff;
-  box-shadow: 0 4px 12px rgba(226, 60, 142, 0.3);
+  background: var(--m2c-gold) !important;
+  color: var(--m2c-btn-ink) !important;
+  border-color: var(--m2c-gold) !important;
+  box-shadow: 0 4px 12px rgba(201, 162, 39, 0.28);
 }
 
 .jobs-search-wrap {
@@ -598,7 +707,7 @@ a {
 .jobs-search-input {
   width: 100%;
   height: 44px;
-  border-radius: 25px;
+  border-radius: var(--m2c-btn-radius) !important;
   border: 1.5px solid #e1e3e8;
   padding: 0 20px 0 42px;
   font-size: 13.5px;
@@ -607,7 +716,7 @@ a {
 }
 
 .jobs-search-input:focus {
-  border-color: var(--tertiary, #e23c8e);
+  border-color: var(--m2c-gold);
 }
 
 .jobs-search-icon {
@@ -704,12 +813,14 @@ a {
   width: 100%;
   text-align: center;
   background: #f7f8fa;
-  color: var(--quaternary, #1B1B1B);
-  border: 1px solid #e5e7eb;
-  border-radius: 25px;
+  color: var(--m2c-olive);
+  border: 1.5px solid #e5e7eb;
+  border-radius: var(--m2c-btn-radius) !important;
   padding: 10px 16px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   transition: all 0.25s ease;
   display: inline-flex;
   align-items: center;
@@ -718,10 +829,10 @@ a {
 }
 
 .job-card-porto:hover .btn-view-job {
-  background: linear-gradient(135deg, var(--primary, #e23c8e) 0%, var(--secondary, #a33188) 100%);
+  background: var(--m2c-olive);
   color: #ffffff;
-  border-color: transparent;
-  box-shadow: 0 4px 14px rgba(226, 60, 142, 0.35);
+  border-color: var(--m2c-olive);
+  box-shadow: 0 4px 14px rgba(41, 39, 11, 0.25);
 }
 
 /* --------------------------------------------------------------------------
@@ -857,8 +968,8 @@ a {
 }
 
 .modal-close-porto:hover {
-  background: #e23c8e;
-  color: #fff;
+  background: var(--m2c-olive);
+  color: var(--m2c-gold);
 }
 
 .modal-body-porto {
@@ -937,10 +1048,6 @@ a {
   color: var(--primary, #e23c8e) !important;
 }
 
-.our-blog .btn-gradient {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
 .our-blog .btn-gradient:hover {
   transform: translateY(-2px);
 }
@@ -956,13 +1063,15 @@ a {
   position: fixed;
   bottom: 24px;
   right: 24px;
-  background: linear-gradient(135deg, var(--primary, #e23c8e) 0%, var(--secondary, #a33188) 100%);
-  color: #ffffff;
-  border-radius: 30px;
+  background: var(--m2c-gold);
+  color: var(--m2c-btn-ink);
+  border-radius: var(--m2c-btn-radius);
   padding: 10px 20px;
-  box-shadow: 0 8px 24px rgba(226, 60, 142, 0.4);
+  box-shadow: 0 8px 24px rgba(201, 162, 39, 0.4);
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -972,8 +1081,9 @@ a {
 }
 
 .porto-float-help:hover {
+  background: var(--m2c-gold-bright);
   transform: translateY(-3px);
-  box-shadow: 0 12px 28px rgba(226, 60, 142, 0.55);
+  box-shadow: 0 12px 28px rgba(201, 162, 39, 0.5);
 }
 
 /* --------------------------------------------------------------------------
@@ -1032,14 +1142,15 @@ img {
   #header .header-btn-collapse-nav {
     width: 42px;
     height: 42px;
-    border-radius: 10px;
-    background: var(--primary, #e23c8e);
-    color: #fff;
+    border-radius: var(--m2c-btn-radius);
+    background: var(--m2c-olive);
+    color: var(--m2c-gold);
     border: 0;
   }
 
   #header .header-btn-collapse-nav.is-active {
-    background: var(--secondary, #a33188);
+    background: var(--m2c-gold);
+    color: var(--m2c-btn-ink);
   }
 
   .section-hero-m2c .hero-container-m2c {
