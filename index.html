@@ -1,817 +1,628 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MilitaryToCorp (M2C) connects India's military veterans with corporate opportunities through veteran hiring, lateral leadership search, and executive L&OD programs.">
-  <meta name="theme-color" content="#29270B">
-  <link rel="preload" as="image" href="assets/GoldenHourMilitaryPartnership.png">
-  <title>MilitaryToCorp (M2C) | Leadership Beyond Service — Veteran Hiring &amp; Corporate Talent</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="styles.css">
-  <script>
-    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      document.documentElement.classList.add('motion');
-    }
-  </script>
-</head>
-<body>
-
-  <!-- =========================================================================
-       3. SOLID DARK OLIVE NAVIGATION BAR
-       ========================================================================= -->
-  <nav class="main-nav-bar" id="mainHeader" aria-label="Main Navigation">
-    <div class="container main-nav-inner">
-
-      <div class="nav-left-cluster">
-        <a href="index.html" class="nav-brand-link" aria-label="MilitaryToCorp Homepage">
-          <img src="assets/logo.png" alt="MilitaryToCorp" class="nav-brand-logo" width="220" height="52">
-        </a>
-
-      <!-- Primary Nav Menu -->
-      <ul class="nav-menu-list">
-        <li>
-          <a href="index.html" class="nav-item-link is-home-active" aria-current="page">
-            <svg class="nav-ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z"/></svg>
-            Home
-          </a>
-        </li>
-
-        <!-- About Us Dropdown -->
-        <li class="nav-item-dropdown">
-          <button type="button" class="nav-dropdown-btn" aria-haspopup="true" aria-expanded="false">
-            <svg class="nav-ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="3"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-            About Us
-            <svg class="nav-chev" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="nav-dropdown-panel" role="menu">
-            <a href="about-us.html" class="dropdown-link-item" role="menuitem">About Us Overview</a>
-            <a href="about-us.html#philosophy" class="dropdown-link-item" role="menuitem">Our Philosophy</a>
-            <a href="about-us.html#vision" class="dropdown-link-item" role="menuitem">Our Vision &amp; Values</a>
-            <a href="about-us.html#mission" class="dropdown-link-item" role="menuitem">Our Mission</a>
-            <a href="about-us.html#story" class="dropdown-link-item" role="menuitem">Our Story</a>
-            <a href="about-us.html#people" class="dropdown-link-item" role="menuitem">Our Leadership Team</a>
-          </div>
-        </li>
-
-        <!-- Employers Dropdown -->
-        <li class="nav-item-dropdown">
-          <button type="button" class="nav-dropdown-btn" aria-haspopup="true" aria-expanded="false">
-            <svg class="nav-ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 21V6a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v15"/><path d="M14 10h5a1 1 0 0 1 1 1v10"/><path d="M8 9h2M8 13h2M8 17h2M17 14h2M17 18h2"/></svg>
-            Employers
-            <svg class="nav-chev" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="nav-dropdown-panel" role="menu">
-            <a href="employers.html" class="dropdown-link-item" role="menuitem">Employer Solutions Overview</a>
-            <a href="employers.html#hire-veterans" class="dropdown-link-item" role="menuitem">Veteran Hiring Solutions</a>
-            <a href="employers.html#volume-hiring" class="dropdown-link-item" role="menuitem">Volume &amp; Diversity Hiring</a>
-            <a href="employers.html#career-fairs" class="dropdown-link-item" role="menuitem">Career Fairs &amp; Summits</a>
-          </div>
-        </li>
-
-        <!-- Job Seekers Dropdown -->
-        <li class="nav-item-dropdown">
-          <button type="button" class="nav-dropdown-btn" aria-haspopup="true" aria-expanded="false">
-            <svg class="nav-ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="3"/><path d="m17 11 2 2 4-4"/></svg>
-            Job Seekers
-            <svg class="nav-chev" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="nav-dropdown-panel" role="menu">
-            <a href="job-search.html" class="dropdown-link-item" role="menuitem">Explore Job Search</a>
-            <a href="https://www.militarytocorp.com/job-seeker/registration" class="dropdown-link-item" target="_blank" rel="noopener" role="menuitem">Veteran Registration</a>
-            <a href="job-search.html#transition-services" class="dropdown-link-item" role="menuitem">Career Transition Program (CTP)</a>
-            <a href="job-search.html#resume-services" class="dropdown-link-item" role="menuitem">Military Resume Translation</a>
-          </div>
-        </li>
-
-        <li><a href="#hot-jobs" class="nav-item-link"><svg class="nav-ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>Hot Jobs</a></li>
-        <li><a href="m2c-labs.html" class="nav-item-link"><svg class="nav-ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 3h6M10 3v6L4.8 20.2A2 2 0 0 0 6.6 23h10.8a2 2 0 0 0 1.8-2.8L14 9V3"/></svg>M2C Labs</a></li>
-        <li><a href="contact-us.html" class="nav-item-link"><svg class="nav-ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>Contact</a></li>
-      </ul>
-      </div>
-
-      <!-- Right Nav Buttons -->
-      <div class="nav-actions-right">
-        <a href="job-search.html" class="nav-search-btn" aria-label="Search jobs">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><line x1="20.5" y1="20.5" x2="16.5" y2="16.5"/></svg>
-        </a>
-        <a href="https://www.militarytocorp.com/job-seeker/login" class="nav-btn-outline" target="_blank" rel="noopener">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          Login
-        </a>
-        <a href="https://www.militarytocorp.com/job-seeker/registration" class="nav-btn-gold" target="_blank" rel="noopener">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          Signup
-        </a>
-        <button type="button" class="nav-menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
-          ☰
-        </button>
-      </div>
-
-    </div>
-  </nav>
-
-  <!-- Mobile Drawer Backdrop & Drawer -->
-  <div class="mobile-drawer-backdrop" id="mobileDrawerBackdrop"></div>
-  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Drawer">
-    <div class="mobile-drawer-header">
-      <img src="assets/logo.png" alt="MilitaryToCorp Logo" width="140" height="42">
-      <button type="button" class="mobile-drawer-close" id="mobileDrawerClose" aria-label="Close Navigation">✕</button>
-    </div>
-    <div class="mobile-nav-list">
-      <a href="index.html" class="mobile-nav-link is-active">Home</a>
-      <div class="mobile-nav-group-title">Company</div>
-      <a href="about-us.html" class="mobile-nav-link">About Us Overview</a>
-      <a href="about-us.html#philosophy" class="mobile-nav-link">Our Philosophy</a>
-      <a href="about-us.html#vision" class="mobile-nav-link">Our Vision &amp; Mission</a>
-      <a href="about-us.html#people" class="mobile-nav-link">Our Leadership</a>
-      <div class="mobile-nav-group-title">Solutions</div>
-      <a href="employers.html" class="mobile-nav-link">Employer Solutions</a>
-      <a href="employers.html#hire-veterans" class="mobile-nav-link">Hire Veterans</a>
-      <a href="m2c-labs.html" class="mobile-nav-link">M2C Labs L&amp;OD</a>
-      <div class="mobile-nav-group-title">Careers &amp; Candidates</div>
-      <a href="job-search.html" class="mobile-nav-link">Search Jobs</a>
-      <a href="#hot-jobs" class="mobile-nav-link">Hot Openings</a>
-      <a href="https://www.militarytocorp.com/job-seeker/registration" class="mobile-nav-link" target="_blank">Veteran Registration</a>
-      <a href="contact-us.html" class="mobile-nav-link">Contact Us</a>
-    </div>
-    <div class="mobile-drawer-footer">
-      <a href="employers.html" class="btn btn-forest" style="display: block; text-align: center; margin-bottom: 8px;">Hire Veterans →</a>
-      <a href="https://www.militarytocorp.com/job-seeker/login" class="btn btn-outline-champagne" target="_blank" style="display: block; text-align: center;">Login</a>
-      <a href="https://www.militarytocorp.com/job-seeker/registration" class="btn btn-outline-champagne" target="_blank" style="display: block; text-align: center;">Signup</a>
-    </div>
-  </aside>
-
-  <!-- =========================================================================
-       FLOATING DOCKS: Right Social Dock & Bottom Help Pill (Reference Screenshot 1)
-       ========================================================================= -->
-  <div class="floating-social-dock" aria-label="Quick Social Links">
-    <a href="https://www.facebook.com/militarytocorp" class="dock-btn dock-fb" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M14.5 8.5V6.8c0-.7.5-1 1.2-1H17V3h-2.2C12.2 3 11 4.4 11 6.6v1.9H9v2.8h2V21h3.5v-9.7h2.3l.4-2.8h-2.7z"/></svg></a>
-    <a href="https://www.linkedin.com/company/militarytocorp/" class="dock-btn dock-in" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M4.7 3.3a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6zM3.2 8.3h3V21h-3V8.3zM9.3 8.3h2.9v1.7h.1c.4-.8 1.4-1.6 2.9-1.6 3.1 0 3.7 2 3.7 4.7V21h-3v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21h-3V8.3z"/></svg></a>
-    <a href="https://www.youtube.com/@militarytocorp" class="dock-btn dock-yt" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M23 12.2s0-3.2-.4-4.6c-.2-.9-.9-1.6-1.8-1.8C19.2 5.4 12 5.4 12 5.4s-7.2 0-8.8.4c-.9.2-1.6.9-1.8 1.8C1 9 1 12.2 1 12.2s0 3.2.4 4.6c.2.9.9 1.6 1.8 1.8 1.6.4 8.8.4 8.8.4s7.2 0 8.8-.4c.9-.2 1.6-.9 1.8-1.8.4-1.4.4-4.6.4-4.6zM9.8 15.5v-6.6l6.2 3.3-6.2 3.3z"/></svg></a>
-    <a href="https://whatsapp.com/channel/0029VbAuo9C6xCSLjGIOFV0A" class="dock-btn dock-wa" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.15 6.4 2.15 11.83c0 1.74.46 3.44 1.34 4.94L2 22l5.39-1.41a10 10 0 0 0 4.65 1.18h.01c5.46 0 9.89-4.4 9.89-9.83C21.94 6.4 17.5 2 12.04 2zm5.76 14.15c-.24.67-1.4 1.28-1.94 1.36-.5.08-1.12.11-1.81-.11-.41-.14-.95-.31-1.63-.61-2.87-1.24-4.74-4.13-4.88-4.32-.14-.19-1.16-1.54-1.16-2.94s.73-2.08 1-2.37c.24-.27.64-.4 1.02-.4.12 0 .23 0 .33.01.3.01.44.03.64.49.24.57.82 1.98.89 2.12.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.16-.29.36-.41.48-.14.14-.28.29-.12.56.16.27.7 1.15 1.5 1.86 1.03.92 1.9 1.2 2.17 1.34.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.6-.13.24.09 1.54.73 1.8.86.27.13.44.2.51.31.06.11.06.64-.18 1.31z"/></svg></a>
-    <a href="https://twitter.com/militarytocorp" class="dock-btn dock-tg" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M17.6 3H20.4l-6.4 7.3L21.5 21h-5.1l-4-5.2L7.7 21H4.8l6.8-7.8L2.7 3h5.2l3.6 4.8L17.6 3zm-1 16.2h1.6L7.5 4.7H5.8l10.8 14.5z"/></svg></a>
-  </div>
-
-  <div class="floating-help-pill" role="button" tabindex="0" aria-label="Instant Assistance Helpline">
-    <span class="help-icon-circle" aria-hidden="true">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-    </span>
-    <span class="help-icon-circle" aria-hidden="true">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-    </span>
-    <span>Help</span>
-  </div>
-
-  <main id="mainContent">
-
-    <!-- =========================================================================
-         4. HERO SECTION WITH EXCELLENCE SHIELD (Reference Screenshot 1)
-         ========================================================================= -->
-    <section class="hero-ref-banner" aria-label="Hero Introduction">
-      <img src="assets/GoldenHourMilitaryPartnership.png" alt="Military professional shaking hands with a corporate leader at sunset" class="hero-ref-bg">
-      <div class="hero-ref-overlay"></div>
-
-      <button type="button" class="hero-carousel-arrow arrow-prev" aria-label="Previous Slide">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-      </button>
-      <button type="button" class="hero-carousel-arrow arrow-next" aria-label="Next Slide">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-      </button>
-
-      <div class="hero-ref-content-wrap">
-        <div class="hero-ref-copy">
-          <span class="hero-cert-pill">
-            <span class="hero-cert-dot" aria-hidden="true"></span>
-            ISO 9001:2015 Certified Veteran Recruitment
-          </span>
-          <h1 class="hero-ref-heading">
-            <span class="hero-line-welcome">Veteran Hiring And</span>
-            <span class="hero-line-brand">L&amp;OD Solution</span>
-          </h1>
-          <p class="hero-ref-tagline">
-            Empowering organizations with battle-tested military talent and leadership philosophies through our veteran hiring initiatives, experiential L&amp;OD events, and impactful engagement programs.
-          </p>
-          <div class="hero-cta-row">
-            <a href="#hot-jobs" class="hero-ref-btn">Apply Now →</a>
-            <a href="employers.html" class="hero-ref-btn hero-ref-btn-secondary">Hire Veterans →</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-slide-dots" role="tablist" aria-label="Hero slides">
-        <button type="button" class="hero-slide-dot is-active" data-slide="0" role="tab" aria-selected="true" aria-label="Slide 1"></button>
-        <button type="button" class="hero-slide-dot" data-slide="1" role="tab" aria-selected="false" aria-label="Slide 2"></button>
-        <button type="button" class="hero-slide-dot" data-slide="2" role="tab" aria-selected="false" aria-label="Slide 3"></button>
-      </div>
-    </section>
-
-    <!-- =========================================================================
-         5. RUNNING NEWS MARQUEE STRIP (Reference Screenshot 2)
-         ========================================================================= -->
-    <div class="news-marquee-strip" aria-label="Live Announcements Marquee">
-      <div class="marquee-content-track">
-        ✦ NEW: Verified Lateral &amp; Executive Veteran Hiring Programs for Q3/Q4 2026 are now open 
-        ✦ Direct placement into Fortune 500 corporate roles 
-        ✦ Helpline: <strong>+91 124 420 0300</strong> · <strong>+91 124 420 0301</strong> 
-        ✦ M2C never charges any registration fees or placement commission from job-seeking military veterans 
-        ✦ Beware of fake recruitment calls, unverified job offers, and money requests 
-        ✦ Apply well before the closing date — fast-track interview scheduling in progress 
-        ✦ M2C Labs Leadership Simulation workshops now open for enterprise registration 
-        ✦ Over 15,000+ veterans placed with 98.4% 1-year retention across India 
-        ✦ NEW: Verified Lateral &amp; Executive Veteran Hiring Programs for Q3/Q4 2026 are now open 
-        ✦ Direct placement into Fortune 500 corporate roles 
-        ✦ Helpline: <strong>+91 124 420 0300</strong> · <strong>+91 124 420 0301</strong>
-      </div>
-    </div>
-
-    <!-- =========================================================================
-         6. WHAT WE DO — FEATURE + SIDE SERVICES
-         ========================================================================= -->
-    <section class="offer-services" aria-label="What we do">
-      <div class="container">
-        <div class="offer-top">
-          <div>
-            <span class="eyebrow">What we do</span>
-            <h2 class="offer-heading">Experience that moves<br>business forward.</h2>
-          </div>
-          <p class="offer-intro">Empowering organizations with proven military talent, leadership philosophies, and meaningful engagement programs.</p>
-        </div>
-
-        <div class="offer-layout">
-          <a class="offer-feature" href="https://www.militarytocorp.com/index.php/employers/hire-veterans">
-            <img src="assets/veteran-hiring.png" alt="Professionals working together around a table" width="900" height="640">
-            <div class="offer-feature-content">
-              <span class="eyebrow">01 / Talent</span>
-              <h3>Veteran Hiring</h3>
-              <p>We help corporate organisations across industries, hire top military talent including women &amp; PWD Veterans.</p>
-              <span class="offer-link">Explore hiring solutions <span aria-hidden="true">↗</span></span>
-            </div>
-          </a>
-
-          <div class="offer-side">
-            <article class="offer-card">
-              <div class="offer-thumb">
-                <img src="assets/m2c-labs.jpg" alt="Leadership workshop in a contemporary office" width="320" height="220">
-              </div>
-              <div class="offer-card-copy">
-                <span class="offer-number">02 / Leadership</span>
-                <h3>M2C Labs</h3>
-                <p>We translate proven military leadership philosophies into bespoke experiential learning.</p>
-                <a class="offer-link" href="https://www.militarytocorp.com/m2c-labs">Discover M2C Labs <span aria-hidden="true">↗</span></a>
-              </div>
-            </article>
-
-            <article class="offer-card">
-              <div class="offer-thumb">
-                <img src="assets/events.jpeg" alt="People gathered for a collaborative community event" width="320" height="220">
-              </div>
-              <div class="offer-card-copy">
-                <span class="offer-number">03 / Engagement</span>
-                <h3>Events &amp; New Initiatives</h3>
-                <p>We translate proven military leadership philosophies into bespoke experiential learning &amp; development programs, building high-performance teams across corporates, military organizations, and academic institutions.</p>
-                <a class="offer-link" href="https://www.militarytocorp.com/">Explore initiatives <span aria-hidden="true">↗</span></a>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Container wrapper for Lower Sections -->
-    <div class="container">
-
-      <!-- =========================================================================
-           9. LATEST UPDATES AND ALERTS RIBBON (Reference Screenshot 3)
-           ========================================================================= -->
-      <section class="updates-alert-ribbon" aria-label="Latest Announcements Ribbon">
-        <div class="updates-left-block">
-          <div class="updates-bell-circle">🔔</div>
-          <div class="updates-copy">
-            <h4>Latest Updates and <span>Alerts</span></h4>
-            <p>Stay informed with the most recent corporate hiring drives, lateral officer openings, and executive updates.</p>
-          </div>
-        </div>
-        <a href="#hot-jobs" class="updates-view-btn">View All Updates</a>
-      </section>
-
-      <!-- =========================================================================
-           10. ABOUT MILITARYTOCORP SECTION (Reference Screenshot 3)
-           ========================================================================= -->
-      <section class="about-bas-grid" aria-label="About MilitaryToCorp">
-        <div class="about-lead-copy">
-          <span class="about-eyebrow">— ABOUT MILITARYTOCORP</span>
-          <h2 class="about-heading">
-            Start Your Corporate Journey with MilitaryToCorp (M2C)
-          </h2>
-          <p>
-            MilitaryToCorp (M2C) is India's leading military veteran hiring and leadership development platform, connecting disciplined service officers and non-commissioned personnel with high-growth corporate opportunities across India and globally.
-          </p>
-          <p>
-            We believe that every military professional possesses unmatched strategic depth, crisis agility, and integrity that translate directly into enterprise ROI, regardless of service branch or specialized trade.
-          </p>
-          <p>
-            With an unwavering commitment to quality, verified service credentials, and structured 90-day onboarding assimilation, M2C delivers dependable leadership solutions for India's foremost corporate enterprises.
-          </p>
-          <div style="margin-top: 20px;">
-            <a href="about-us.html" class="service-link-cta" style="font-size: 0.9rem;">
-              Read our full story and mission →
-            </a>
-          </div>
-        </div>
-
-        <div class="about-photo-frame">
-          <img src="assets/veteran-hiring.png" alt="MilitaryToCorp leadership team and military veterans in enterprise roles" width="600" height="380">
-        </div>
-      </section>
-
-      <!-- =========================================================================
-           11. SERVICE & CAPABILITIES SECTION (Reference Screenshot 4)
-           ========================================================================= -->
-      <section class="services-section-wrapper" aria-label="Enterprise Services and Capabilities">
-        <div class="section-ribbon-title">SERVICE &amp; ENTERPRISE CAPABILITIES</div>
-        
-        <div class="services-cards-row">
-          
-          <!-- Service 1 -->
-          <article class="service-clean-card">
-            <div class="service-icon-box">🛡</div>
-            <h4>Veteran Hiring</h4>
-            <p>We help corporate organisations across industries, hire top military talent including women &amp; PWD Veterans.</p>
-            <a href="employers.html#hire-veterans" class="service-link-cta">Learn more →</a>
-          </article>
-
-          <!-- Service 2 -->
-          <article class="service-clean-card">
-            <div class="service-icon-box">📦</div>
-            <h4>Supply Chain &amp; Ops</h4>
-            <p>High-velocity warehouse clusters, automated fulfillment centers, and multimodal distribution command.</p>
-            <a href="employers.html" class="service-link-cta">Learn more →</a>
-          </article>
-
-          <!-- Service 3 -->
-          <article class="service-clean-card">
-            <div class="service-icon-box">💻</div>
-            <h4>Tech &amp; Cloud Infra</h4>
-            <p>Signals, cyber security, and technical engineering veterans powering mission-critical IT infrastructure.</p>
-            <a href="employers.html" class="service-link-cta">Learn more →</a>
-          </article>
-
-          <!-- Service 4 -->
-          <article class="service-clean-card">
-            <div class="service-icon-box">👥</div>
-            <h4>Events &amp; New Initiatives</h4>
-            <p>We translate proven military leadership philosophies into bespoke experiential learning &amp; development programs, building high-performance teams across corporates, military organizations, and academic institutions.</p>
-            <a href="employers.html#volume-hiring" class="service-link-cta">Learn more →</a>
-          </article>
-
-          <!-- Service 5 -->
-          <article class="service-clean-card">
-            <div class="service-icon-box">🎖</div>
-            <h4>M2C Labs</h4>
-            <p>We translate proven military leadership philosophies into bespoke experiential learning.</p>
-            <a href="m2c-labs.html" class="service-link-cta">Learn more →</a>
-          </article>
-
-        </div>
-      </section>
-
-      <!-- =========================================================================
-           12. VISION & VALUES + WHY VETERANS SPLIT (Reference Screenshot 4)
-           ========================================================================= -->
-      <section class="vision-values-split-row" aria-label="Vision and Value Proposition">
-        
-        <div class="wide-feature-card">
-          <div class="wide-feature-card-header">
-            <span>👁</span> VISION &amp; VALUES
-          </div>
-          <p>
-            To be India's most trusted veteran transition partner — integrity first, service always, and opportunity for every deserving soldier, sailor, and air warrior, regardless of rank or background.
-          </p>
-          <a href="about-us.html#vision">Read more →</a>
-        </div>
-
-        <div class="wide-feature-card">
-          <div class="wide-feature-card-header">
-            <span>✈</span> WHY MILITARY VETERANS?
-          </div>
-          <p>
-            India is experiencing rapid corporate growth — new data hubs, smart manufacturing, and logistics corridors. Military leaders bring battle-tested crisis agility, 98.4% 1-year stability, and team discipline.
-          </p>
-          <a href="employers.html">Career with veterans →</a>
-        </div>
-
-      </section>
-
-      <!-- =========================================================================
-           15. HOT JOBS SECTION (PRESERVED COMPLETE REAL-TIME PORTAL)
-           ========================================================================= -->
-      <section class="jobs-section" id="hot-jobs" aria-label="Current Veteran Job Openings">
-        
-        <div class="section-header-split jobs-hero">
-          <div class="jobs-hero-copy">
-            <span class="eyebrow">Career Opportunities</span>
-            <h2 class="section-title">Hot <span>Jobs</span></h2>
-            <p>Explore opportunities where experience, discipline, and leadership can make a difference.</p>
-          </div>
-          <div class="jobs-hero-visual">
-            <div class="jobs-hero-circle">
-              <img src="assets/jobs-summit.jpg" alt="Veteran standing with a flag on a mountain ridge" width="280" height="280">
-            </div>
-            <a class="jobs-hero-pill" href="job-search.html">
-              <span class="jobs-hero-pill-icon" aria-hidden="true">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
-              </span>
-              <span class="jobs-hero-pill-copy">
-                <strong>Join Leading Organizations</strong>
-                <small>Meaningful careers. Real impact.</small>
-              </span>
-              <span class="jobs-hero-pill-arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="jobs-panel">
-
-        <!-- Interactive Toolbar -->
-        <div class="jobs-toolbar">
-          <div class="jobs-filter-tabs" role="tablist" aria-label="Filter Jobs by Category">
-            <button type="button" class="jobs-tab-btn is-active" data-category="all" role="tab" aria-selected="true">All Positions</button>
-            <button type="button" class="jobs-tab-btn" data-category="leadership" role="tab" aria-selected="false">Corporate Leadership</button>
-            <button type="button" class="jobs-tab-btn" data-category="tech" role="tab" aria-selected="false">Tech &amp; IT</button>
-            <button type="button" class="jobs-tab-btn" data-category="operations" role="tab" aria-selected="false">Supply Chain &amp; Ops</button>
-            <button type="button" class="jobs-tab-btn" data-category="security" role="tab" aria-selected="false">Security &amp; Facilities</button>
-          </div>
-
-          <div style="display: flex; align-items: center; gap: 16px;">
-            <div class="jobs-search-box">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-              <input type="text" class="jobs-search-input" id="jobSearchInput" placeholder="Filter title, skills, or city..." aria-label="Search jobs by keyword">
-            </div>
-            <span class="jobs-count-badge" id="jobsCountBadge" style="font-size: 0.8rem; color: var(--bas-text-muted);">Showing <strong>6</strong> positions</span>
-          </div>
-        </div>
-
-        <!-- Job Cards Grid (Populated dynamically by script.js) -->
-        <div class="jobs-grid" id="jobsGrid"></div>
-
-        <!-- Empty Search State -->
-        <div class="jobs-empty-state" id="jobsEmptyState" style="display: none; padding: 40px; text-align: center;">
-          <h3 style="color: var(--bas-dark); margin-bottom: 8px;">No matching positions found</h3>
-          <p style="color: var(--bas-text-muted);">Try modifying your keyword search or selecting another category tab above.</p>
-        </div>
-
-        <p style="text-align: center; margin: 28px 0 0;">
-          <a href="job-search.html" class="nav-btn-gold" style="padding: 10px 24px; font-size: 0.88rem; display: inline-flex;">View All Jobs</a>
-        </p>
-
-        </div>
-
-      </section>
-
-      <!-- =========================================================================
-           8. PHOTO BAND — FROM SERVICE TO SUCCESS
-           ========================================================================= -->
-      <section class="photo-band" aria-label="From service to success">
-        <div class="photo-grid">
-          <div class="photo-band-image">
-            <img src="assets/events.jpeg" alt="Corporate team in a strategy meeting" width="960" height="640">
-          </div>
-          <div class="photo-band-copy">
-            <span class="eyebrow">From service to success</span>
-            <h2>Leadership that travels beyond the uniform.</h2>
-            <p>Military experience brings discipline, adaptability, resilience and a mission-first mindset to every team. M2C helps connect those strengths with the right opportunities.</p>
-            <a class="btn btn-dark" href="https://www.militarytocorp.com/index.php/contact-us">Let's connect <span class="arrow" aria-hidden="true">↗</span></a>
-          </div>
-        </div>
-      </section>
-
-      <!-- =========================================================================
-           16. PHILOSOPHY IN ACTION: "LOOK CLOSER" DETAIL-LENS
-           ========================================================================= -->
-      <section class="philosophy-section" aria-label="Core Philosophy">
-        <div style="text-align: center; max-width: 780px; margin: 0 auto 28px;">
-          <span class="eyebrow" style="color: var(--bas-gold);">Design &amp; Service Philosophy</span>
-          <h2 style="font-family: var(--font-serif); font-size: clamp(1.8rem, 2.5vw, 2.3rem); color: var(--bas-dark); margin: 6px 0 12px;">
-            “Life is in the details. <em>Look closer.</em> Live easier.”
-          </h2>
-          <p style="font-size: 0.92rem; color: var(--bas-text-muted); line-height: 1.68;">
-            At MilitaryToCorp, we believe true leadership excellence lies in microscopic precision. Toggle the tabs below to see how military discipline translates directly into corporate ROI.
-          </p>
-        </div>
-
-        <!-- Interactive Lens Tab Switchers -->
-        <div class="lens-tabs-nav" role="tablist" style="display: flex; justify-content: center; gap: 12px; margin-bottom: 24px; flex-wrap: wrap;">
-          <button type="button" class="lens-tab-btn is-active" data-lens-target="lens-panel-1" role="tab" aria-selected="true">
-            01 / Competency Translation
-          </button>
-          <button type="button" class="lens-tab-btn" data-lens-target="lens-panel-2" role="tab" aria-selected="false">
-            02 / 100% Service Verification
-          </button>
-          <button type="button" class="lens-tab-btn" data-lens-target="lens-panel-3" role="tab" aria-selected="false">
-            03 / Frictionless Assimilation
-          </button>
-        </div>
-
-        <!-- Interactive Panels Container -->
-        <div class="lens-panel-container">
-          
-          <!-- Panel 1: Competency Translation -->
-          <div class="lens-panel is-active" id="lens-panel-1">
-            <div class="lens-compare-grid">
-              <div class="lens-side-box">
-                <span class="lens-side-badge" style="font-size: 0.72rem; font-weight: 700; color: var(--bas-forest); text-transform: uppercase;">Military Command</span>
-                <h3 style="font-size: 1.25rem; color: var(--bas-dark); margin: 6px 0 8px;">Regimental Command</h3>
-                <p style="font-size: 0.86rem; color: var(--bas-text-body); margin: 0;">Autonomous command of an 800+ soldier formation, operating with $30M+ in specialized assets under high-stakes geopolitical ambiguity with zero margin for error.</p>
-              </div>
-
-              <div class="lens-transition-indicator" style="font-size: 1.5rem; color: var(--bas-gold); text-align: center; font-weight: 700;">➔</div>
-
-              <div class="lens-side-box">
-                <span class="lens-side-badge" style="font-size: 0.72rem; font-weight: 700; color: var(--bas-gold); text-transform: uppercase;">Corporate Reality</span>
-                <h3 style="font-size: 1.25rem; color: var(--bas-dark); margin: 6px 0 8px;">VP Global Operations</h3>
-                <p style="font-size: 0.86rem; color: var(--bas-text-body); margin: 0;">Direct oversight of multi-hub automated fulfillment networks, cross-functional SLA governance, loss prevention, and rapid crisis escalation management.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Panel 2: Verification -->
-          <div class="lens-panel" id="lens-panel-2" style="display: none;">
-            <div class="lens-compare-grid">
-              <div class="lens-side-box">
-                <span class="lens-side-badge" style="font-size: 0.72rem; font-weight: 700; color: var(--bas-forest); text-transform: uppercase;">The Vetting Challenge</span>
-                <h3 style="font-size: 1.25rem; color: var(--bas-dark); margin: 6px 0 8px;">Standard Background Checks Fail</h3>
-                <p style="font-size: 0.86rem; color: var(--bas-text-body); margin: 0;">Generic corporate background verification agencies cannot decode military discharge documents, confidential citations, or security clearance protocols.</p>
-              </div>
-
-              <div class="lens-transition-indicator" style="font-size: 1.5rem; color: var(--bas-gold); text-align: center; font-weight: 700;">➔</div>
-
-              <div class="lens-side-box">
-                <span class="lens-side-badge" style="font-size: 0.72rem; font-weight: 700; color: var(--bas-gold); text-transform: uppercase;">The M2C Standard</span>
-                <h3 style="font-size: 1.25rem; color: var(--bas-dark); margin: 6px 0 8px;">5-Point Service Verification</h3>
-                <p style="font-size: 0.86rem; color: var(--bas-text-body); margin: 0;">Every candidate is audited by veteran officers: official service records, release orders, gallantry citations, and psychological transition readiness verified.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Panel 3: Assimilation -->
-          <div class="lens-panel" id="lens-panel-3" style="display: none;">
-            <div class="lens-compare-grid">
-              <div class="lens-side-box">
-                <span class="lens-side-badge" style="font-size: 0.72rem; font-weight: 700; color: var(--bas-forest); text-transform: uppercase;">The Transition Gap</span>
-                <h3 style="font-size: 1.25rem; color: var(--bas-dark); margin: 6px 0 8px;">Corporate Cultural Shock</h3>
-                <p style="font-size: 0.86rem; color: var(--bas-text-body); margin: 0;">Without guidance, even brilliant military leaders can stumble over informal communication norms, matrix reporting, and commercial KPI expectations.</p>
-              </div>
-
-              <div class="lens-transition-indicator" style="font-size: 1.5rem; color: var(--bas-gold); text-align: center; font-weight: 700;">➔</div>
-
-              <div class="lens-side-box">
-                <span class="lens-side-badge" style="font-size: 0.72rem; font-weight: 700; color: var(--bas-gold); text-transform: uppercase;">The Solution</span>
-                <h3 style="font-size: 1.25rem; color: var(--bas-dark); margin: 6px 0 8px;">Frictionless Assimilation Coaching</h3>
-                <p style="font-size: 0.86rem; color: var(--bas-text-body); margin: 0;">Structured onboarding frameworks and 90 days of executive veteran mentorship that accelerate time-to-productivity and drive 98.4% retention.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- =========================================================================
-           17. DUAL CALL-TO-ACTION LAUNCHPAD
-           ========================================================================= -->
-      <section class="dual-cta-section" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 56px;" aria-label="Get Started with MilitaryToCorp">
-        
-        <div style="background-color: var(--bas-dark); color: #FFFFFF; border-radius: var(--radius-md); padding: 36px 32px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div>
-            <span class="eyebrow" style="color: var(--bas-gold-light);">For Organizations</span>
-            <h3 style="font-size: 1.6rem; color: #FFFFFF; margin: 8px 0 12px;">Contact Us</h3>
-            <p style="font-size: 0.92rem; color: rgba(255, 255, 255, 0.8); line-height: 1.65; margin-bottom: 24px;">
-              If you are looking to explore how military veterans can add value to your organizations, Contact Us and we will be glad to assist.
-            </p>
-          </div>
-          <div>
-            <a href="contact-us.html" class="nav-btn-gold" style="padding: 10px 24px; font-size: 0.88rem; display: inline-flex;">
-              Contact Us →
-            </a>
-          </div>
-        </div>
-
-        <div style="background-color: #FFFFFF; border: 1px solid var(--bas-border); border-radius: var(--radius-md); padding: 36px 32px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: var(--shadow-sm);">
-          <div>
-            <span class="eyebrow" style="color: var(--bas-gold);">For Military Veterans</span>
-            <h3 style="font-size: 1.6rem; color: var(--bas-dark); margin: 8px 0 12px;">Most comprehensive job portal for veterans</h3>
-            <p style="font-size: 0.92rem; color: var(--bas-text-body); line-height: 1.65; margin-bottom: 24px;">
-              We at M2C have unparalleled touch-points with veterans' career post-retirement, we know the secret sauce for that winning veteran resume because; We are Recruiters, We are Industry Insiders &amp; We are Veterans
-            </p>
-          </div>
-          <div>
-            <a href="https://www.militarytocorp.com/job-seeker/registration" class="corner-btn-dark" target="_blank" rel="noopener" style="padding: 10px 24px; font-size: 0.88rem; display: inline-flex;">
-              Register →
-            </a>
-          </div>
-        </div>
-
-      </section>
-
-      <!-- =========================================================================
-           18. NEWSLETTER SUBSCRIPTION BAR
-           ========================================================================= -->
-      <div style="background-color: var(--bas-ivory); border: 1px solid var(--bas-border); border-radius: var(--radius-md); padding: 28px 32px; display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 64px; flex-wrap: wrap;">
-        <div style="max-width: 540px;">
-          <h3 style="font-size: 1.25rem; color: var(--bas-dark); margin-bottom: 4px;">Stay informed with M2C Intelligence</h3>
-          <p style="font-size: 0.86rem; color: var(--bas-text-muted); margin: 0;">Receive monthly research briefs on veteran leadership, corporate transition case studies, and employment reports.</p>
-        </div>
-        <form id="newsletterForm" style="display: flex; gap: 10px; flex-wrap: wrap; flex: 1; max-width: 440px;">
-          <input type="email" class="form-input" placeholder="Enter your corporate email address" required style="flex: 1; min-width: 200px;">
-          <button type="submit" class="action-btn-mini" style="padding: 9px 20px; font-size: 0.84rem;">Subscribe</button>
-        </form>
-      </div>
-
-    </div> <!-- End container -->
-
-  </main>
-
-  <!-- =========================================================================
-       19. LUXURY EDITORIAL FOOTER
-       ========================================================================= -->
-  <footer class="footer-ref" role="contentinfo">
-    <div class="container">
-      
-      <div class="footer-top-grid">
-        
-        <div>
-          <a href="index.html" aria-label="MilitaryToCorp Homepage">
-            <img src="assets/logo.png" alt="MilitaryToCorp Logo" width="210" height="48">
-          </a>
-          <p style="font-size: 0.84rem; line-height: 1.65; color: rgba(255, 255, 255, 0.72); margin-bottom: 20px;">
-            MilitaryToCorp (M2C) is India's leading military veteran hiring and leadership development platform, connecting disciplined service leaders with high-growth corporate opportunities.
-          </p>
-          <div style="display: flex; gap: 10px;">
-            <a href="https://www.linkedin.com/company/militarytocorp/" target="_blank" rel="noopener" style="color: var(--bas-gold-light); font-size: 1.1rem;" aria-label="LinkedIn">in</a>
-            <a href="https://twitter.com/militarytocorp" target="_blank" rel="noopener" style="color: var(--bas-gold-light); font-size: 1.1rem;" aria-label="X (Twitter)">𝕏</a>
-            <a href="https://www.facebook.com/militarytocorp" target="_blank" rel="noopener" style="color: var(--bas-gold-light); font-size: 1.1rem;" aria-label="Facebook">f</a>
-            <a href="https://www.youtube.com/@militarytocorp" target="_blank" rel="noopener" style="color: var(--bas-gold-light); font-size: 1.1rem;" aria-label="YouTube">▶</a>
-            <a href="https://whatsapp.com/channel/0029VbAuo9C6xCSLjGIOFV0A" target="_blank" rel="noopener" style="color: var(--bas-gold-light); font-size: 1.1rem;" aria-label="WhatsApp">✆</a>
-          </div>
-        </div>
-
-        <div>
-          <h4 class="footer-col-title">Explore</h4>
-          <ul class="footer-links-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="job-search.html">Job Search</a></li>
-            <li><a href="m2c-labs.html">M2C Labs</a></li>
-            <li><a href="about-us.html#initiatives">Initiatives &amp; Events</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="footer-col-title">For Employers</h4>
-          <ul class="footer-links-list">
-            <li><a href="employers.html">Employer Solutions Overview</a></li>
-            <li><a href="employers.html#hire-veterans">Veteran Hiring Solutions</a></li>
-            <li><a href="employers.html#volume-hiring">Volume Hiring Programs</a></li>
-            <li><a href="employers.html#career-fairs">Career Fairs &amp; Summits</a></li>
-            <li><a href="m2c-labs.html">Corporate Awareness Workshops</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="footer-col-title">Veteran Resources</h4>
-          <ul class="footer-links-list" style="margin-bottom: 20px;">
-            <li><a href="https://www.militarytocorp.com/job-seeker/registration" target="_blank" rel="noopener">Veteran Registration</a></li>
-            <li><a href="#hot-jobs">Current Job Openings</a></li>
-            <li><a href="job-search.html#transition-services">Career Transition Program - CTP</a></li>
-            <li><a href="job-search.html#resume-services">Resume Building Services - RBS</a></li>
-          </ul>
-          <div style="font-size: 0.78rem; color: rgba(255, 255, 255, 0.65); display: flex; gap: 8px;">
-            <span>📍</span>
-            <span>Unitech Cyber Park, Sector 39, Gurugram, Haryana 122002, India</span>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="footer-disclaimer-card">
-        Disclaimer : MilitaryToCorp-M2C, directly or indirectly, doesn't charge / accept any amount or security deposit from any job seekers during any stage of the selection process or while inviting candidates for an interview or at the offer/joining stage. If any person receives any such unsolicited or fraudulent communication from MilitaryToCorp-M2C towards payment of money, it is recommended not to respond. Kindly inform us of such communication immediately at <a href="mailto:info@militarytocorp.com" style="color: var(--bas-gold-light); text-decoration: underline;">info@militarytocorp.com</a>
-      </div>
-
-      <div class="footer-bottom-bar">
-        <div>Copyright 2023 MilitaryToCorp-M2C . All rights reserved</div>
-        <div style="display: flex; gap: 14px; flex-wrap: wrap;">
-          <a href="about-us.html#privacy">Privacy Policy</a>
-          <span>·</span>
-          <a href="about-us.html#refund">Refund &amp; Cancellation</a>
-          <span>·</span>
-          <a href="about-us.html#terms">Terms &amp; Conditions</a>
-          <span>·</span>
-          <a href="about-us.html#shipping">Shipping &amp; Delivery</a>
-        </div>
-      </div>
-      <p class="footer-credit">Design and Developed by <a href="https://www.mindrops.com" target="_blank" rel="noopener">Mindrops</a></p>
-
-    </div>
-  </footer>
-
-  <!-- =========================================================================
-       20. INTERACTIVE JOB DETAILS & APPLICATION MODAL
-       ========================================================================= -->
-  <div class="modal-backdrop" id="jobModal" role="dialog" aria-modal="true" aria-labelledby="modalJobTitle">
-    <div class="modal-dialog">
-      <div class="modal-header">
-        <div>
-          <span class="eyebrow" id="modalJobId" style="font-size: 0.72rem; color: var(--bas-gold); margin-bottom: 2px;">Job ID</span>
-          <h3 id="modalJobTitle" style="font-size: 1.35rem; color: var(--bas-dark);">Job Title</h3>
-        </div>
-        <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">✕</button>
-      </div>
-
-      <div class="modal-body">
-        <div class="modal-meta-bar">
-          <div><strong>Company:</strong> <span id="modalJobCompany">Company</span></div>
-          <div><strong>Location:</strong> <span id="modalJobLocation">Location</span></div>
-          <div><strong>Type:</strong> <span id="modalJobType">Type</span></div>
-        </div>
-
-        <h4 style="font-size: 1.05rem; color: var(--bas-dark); margin: 16px 0 6px;">Position Overview</h4>
-        <p id="modalJobDesc" style="font-size: 0.88rem; color: var(--bas-text-body); line-height: 1.65;"></p>
-
-        <h4 style="font-size: 1.05rem; color: var(--bas-dark); margin: 16px 0 6px;">Target Experience &amp; Military Profile</h4>
-        <p id="modalJobExp" style="font-size: 0.88rem; color: var(--bas-text-body); font-weight: 600;"></p>
-
-        <h4 style="font-size: 1.05rem; color: var(--bas-dark); margin: 16px 0 6px;">Key Responsibilities</h4>
-        <ul id="modalJobResp" style="list-style: disc; padding-left: 20px; font-size: 0.86rem; color: var(--bas-text-body); line-height: 1.65; margin-bottom: 20px;"></ul>
-
-        <h4 style="font-size: 1.05rem; color: var(--bas-dark); margin: 16px 0 6px;">Key Competencies</h4>
-        <div id="modalJobSkills" class="job-card-skills" style="margin-bottom: 24px;"></div>
-
-        <h4 style="font-size: 1.1rem; color: var(--bas-dark); border-top: 1px solid var(--bas-border); padding-top: 18px; margin-bottom: 12px;">
-          Express Interest &amp; Submit Application
-        </h4>
-        <form id="jobApplicationForm" class="modal-form-grid">
-          <input type="hidden" id="modalFormJobId" name="job_id">
-          
-          <div class="form-group">
-            <label class="form-label" for="applicantName">Full Name *</label>
-            <input type="text" id="applicantName" class="form-input" required placeholder="e.g. Major Arjun Sharma">
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="applicantEmail">Email Address *</label>
-            <input type="email" id="applicantEmail" class="form-input" required placeholder="arjun.sharma@example.com">
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="applicantPhone">Phone Number *</label>
-            <input type="tel" id="applicantPhone" class="form-input" required placeholder="+91 98765 43210">
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="applicantService">Armed Forces Branch *</label>
-            <select id="applicantService" class="form-select" required>
-              <option value="">Select Armed Forces Branch</option>
-              <option value="Indian Army">Indian Army</option>
-              <option value="Indian Navy">Indian Navy</option>
-              <option value="Indian Air Force">Indian Air Force</option>
-              <option value="Paramilitary">Coast Guard / Paramilitary</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="applicantRank">Last Substantive Rank</label>
-            <input type="text" id="applicantRank" class="form-input" placeholder="e.g. Lt Colonel / Commander">
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="applicantNotice">Release / Availability Date</label>
-            <input type="text" id="applicantNotice" class="form-input" placeholder="e.g. Immediate / 30 Days">
-          </div>
-
-          <div class="form-group col-full">
-            <label class="form-label" for="applicantCover">Executive Summary &amp; Key Achievements</label>
-            <textarea id="applicantCover" rows="3" class="form-textarea" placeholder="Briefly highlight your command tenure, operational highlights, or technical specialization..."></textarea>
-          </div>
-
-          <div class="form-group col-full" style="margin-top: 8px;">
-            <button type="submit" class="action-btn-mini" style="width: 100%; padding: 12px; font-size: 0.92rem; background-color: var(--bas-dark); color: #FFFFFF;">
-              Submit Application to M2C Talent Directors
-            </button>
-          </div>
-        </form>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- Toast Notice -->
-  <div class="toast-notice" id="toastNotice" role="alert" aria-live="polite">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--bas-gold)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-    <span id="toastMessage">Application submitted successfully.</span>
-  </div>
-
-  <script src="script.js"></script>
-</body>
+<html lang="en" data-style-switcher-options="{'showBordersStyle': true, 'showLayoutStyle': false, 'showBackgroundColor': false, 'colorPrimary': '#e23c8e', 'colorSecondary': '#a33188', 'colorTertiary': '#e23c8e', 'colorQuaternary': '#323232'}">
+	<head>
+		
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+		<title>MilitaryToCorp (M2C) | Veteran Hiring And L&amp;OD Solution</title>	
+
+		<meta name="keywords" content="MilitaryToCorp, M2C, Veteran Hiring, L&OD Solution, Corporate Leadership, Military Transition" />
+		<meta name="description" content="Empowering organizations with battle-tested military talent and leadership philosophies through our veteran hiring initiatives, experiential L&OD events, and impactful engagement programs.">
+		<meta name="author" content="MilitaryToCorp-M2C">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+
+		<!-- Web Fonts  -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link id="googleFonts" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="theme.css">
+		<link rel="stylesheet" href="theme-elements.css">
+
+		<!-- Demo CSS -->
+		<link rel="stylesheet" href="demo-seo-2.css">
+
+		<!-- Skin CSS -->
+		<link id="skinCSS" rel="stylesheet" href="skin-seo-2.css">
+
+		<!-- Dedicated Porto M2C Custom Stylesheet -->
+		<link rel="stylesheet" href="porto-m2c.css">
+
+	</head>
+	<body>
+
+		<div class="body">
+
+			<!-- =========================================================================
+			     1. PORTO HEADER & TOP BAR (WITH EXACT USER NAVIGATION)
+			     ========================================================================= -->
+			<header id="header" class="header-transparent header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 70, 'stickyHeaderContainerHeight': 70}">
+				<div class="header-body border-top-0 appear-animation" data-appear-animation="fadeIn">
+					<div class="header-top">
+						<div class="container">
+							<div class="header-row">
+								<div class="header-column justify-content-start">
+									<div class="header-row">
+										<nav class="header-nav-top">
+											<ul class="nav nav-pills">
+												<li class="nav-item">
+													<span class="ws-nowrap custom-text-color-grey-1 text-2 ps-0">
+														<i class="icon-envelope icons text-4 top-3 left-1 me-1"></i> 
+														<a href="mailto:info@militarytocorp.com" class="text-color-default text-color-hover-primary">info@militarytocorp.com</a>
+													</span>
+												</li>
+												<li class="nav-item d-none d-md-block">
+													<span class="ws-nowrap custom-text-color-grey-1 text-2">
+														<i class="icon-clock icons text-4 top-3 left-1 me-1"></i> Mon - Sat 9:00am - 6:00pm / Sunday - CLOSED
+													</span>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+								<div class="header-column justify-content-end">
+									<div class="header-row">
+										<ul class="header-social-icons social-icons social-icons-clean d-none d-lg-block me-3">
+											<li class="social-icons-linkedin"><a href="https://www.linkedin.com/company/militarytocorp/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+											<li class="social-icons-x"><a href="https://twitter.com/militarytocorp" target="_blank" rel="noopener" title="X"><i class="fab fa-x-twitter"></i></a></li>
+											<li class="social-icons-facebook"><a href="https://www.facebook.com/militarytocorp" target="_blank" rel="noopener" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+											<li class="social-icons-youtube"><a href="https://www.youtube.com/@militarytocorp" target="_blank" rel="noopener" title="YouTube"><i class="fab fa-youtube"></i></a></li>
+											<li class="social-icons-whatsapp"><a href="https://whatsapp.com/channel/0029VbAuo9C6xCSLjGIOFV0A" target="_blank" rel="noopener" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+										</ul>
+										<a href="https://www.militarytocorp.com/contact-us" class="btn btn-tertiary font-weight-semibold text-3 px-4 custom-height-1 rounded-0 align-items-center d-none d-md-flex">
+											<i class="icon-phone icons text-4 me-2"></i> CONTACT US
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-logo">
+										<a href="index.html" aria-label="MilitaryToCorp Homepage">
+											<img alt="MilitaryToCorp-M2C" width="168" height="52" src="assets/logo-header.png">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="header-column justify-content-end">
+								<div class="header-row">
+									<div class="header-nav header-nav-links order-2 order-lg-1">
+										<div class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
+											<nav class="collapse navbar-collapse" id="portoMainNavbar">
+												<ul class="nav nav-pills" id="mainNav">
+													<li>
+														<a class="nav-link active" href="https://www.militarytocorp.com/home">
+															HOME
+														</a>
+													</li>
+													<li class="dropdown">
+														<a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+															ABOUT US
+														</a>
+														<ul class="dropdown-menu">
+															<li><a class="nav-link" href="https://www.militarytocorp.com/about-us#our-philosophy">Our Philosophy</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/about-us#our-vision">Our Vision</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/about-us#our-mission">Our Mission</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/about-us#our-story">Our Story</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/about-us#our-people">Our People</a></li>
+														</ul>
+													</li>
+													<li>
+														<a class="nav-link" href="https://www.militarytocorp.com/job-search">
+															JOB SEARCH
+														</a>
+													</li>
+													<li class="dropdown">
+														<a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+															EMPLOYERS
+														</a>
+														<ul class="dropdown-menu">
+															<li><a class="nav-link" href="https://www.militarytocorp.com/employers/employer-solutions">Employer Solutions Overview</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/employers/employer-solutions/veteran-hiring-solutions">Veteran Hiring Solutions</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/employers/employer-solutions/volume-hiring">Volume Hiring</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/employers/employer-solutions/multiple-companies-career-fair">Multiple Companies Career Fair</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/employers/employer-solutions/single-company-career-fair">Single Company Career Fair</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/employers/employer-solutions/corporate-awareness-workshop">Corporate Awareness Workshop</a></li>
+														</ul>
+													</li>
+													<li class="dropdown">
+														<a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+															JOB SEEKERS
+														</a>
+														<ul class="dropdown-menu">
+															<li><a class="nav-link" href="https://www.militarytocorp.com/job-seekers/transition-services/career-transition-program-ctp">Career Transition Program - CTP</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/job-seekers/transition-services/resume-building-services-rbs">Resume Building Services - RBS</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/job-seekers/transition-services/career-transition-workshop-ctw">Career Transition Workshop - CTW</a></li>
+															<li><a class="nav-link" href="https://www.militarytocorp.com/job-seeker/registration">Veteran Registration</a></li>
+														</ul>
+													</li>
+													<li>
+														<a class="nav-link" href="https://www.militarytocorp.com/blogs">
+															BLOGS
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="https://www.militarytocorp.com/m2c-labs">
+															M2C Labs
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="https://www.militarytocorp.com/events-and-new-initiatives">
+															EVENTS
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="https://www.militarytocorp.com/employers/employer-solutions">
+															VETERAN HIRING
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="https://www.militarytocorp.com/contact-us">
+															CONTACT US
+														</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+										<button class="btn header-btn-collapse-nav" type="button" data-bs-toggle="collapse" data-bs-target="#portoMainNavbar" aria-controls="portoMainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+											<i class="fas fa-bars"></i>
+										</button>
+									</div>
+									<div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2 d-flex align-items-center">
+										<a href="https://www.militarytocorp.com/job-seeker/login" class="header-btn-action header-btn-login d-none d-sm-inline-flex" target="_blank" rel="noopener">
+											<i class="fas fa-sign-in-alt text-2"></i> LOGIN
+										</a>
+										<a href="https://www.militarytocorp.com/job-seeker/registration" class="header-btn-action header-btn-signup d-none d-sm-inline-flex" target="_blank" rel="noopener">
+											<i class="fas fa-user-plus text-2"></i> SIGNUP
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div role="main" class="main">
+				
+				<!-- =========================================================================
+				     2. PORTO HERO SECTION WITH EXACT USER CONTENT & IMAGES
+				     ========================================================================= -->
+				<section class="section custom-bg-color-light-1 border-0 pt-5 m-0 position-relative">
+					<div class="container position-relative z-index-1 pt-5 mt-5">
+						<!-- Floating Circles (Exact Porto SEO 2 Geometry) -->
+						<div class="custom-circle custom-circle-wrapper custom-circle-big custom-circle-pos-1 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="900" data-appear-animation-duration="2s">
+							<div class="bg-color-tertiary rounded-circle w-100 h-100"></div>	
+						</div>
+						<div class="custom-circle custom-circle-medium custom-circle-pos-2 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1450" data-appear-animation-duration="2s">
+							<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-medium custom-circle-pos-3 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="1300">
+							<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-small custom-circle-pos-4 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="1600">
+							<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-medium custom-circle-pos-5 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1050" data-appear-animation-duration="2s">
+							<div class="bg-color-secondary rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-medium custom-circle-pos-6 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1200" data-appear-animation-duration="2s">
+							<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-small custom-circle-pos-7 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="1700">
+							<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-medium custom-circle-pos-8 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1350" data-appear-animation-duration="2s">
+							<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100"></div>
+						</div>
+
+						<div class="row align-items-center pt-4">
+							<div class="col-md-6 pb-5 mb-md-5">
+								<div class="spacer" style="height: 60px;"></div>
+								<span class="badge px-3 py-2 text-uppercase mb-3 font-weight-bold" style="background: rgba(226,60,142,0.12); color: var(--primary); border-radius: 20px; font-size: 0.75rem; letter-spacing: 1px;">
+									ISO 9001:2015 Certified Veteran Recruitment
+								</span>
+								<h1 class="text-color-dark font-weight-bold text-10 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
+									Veteran Hiring And<br>L&amp;OD Solution
+								</h1>
+								<p class="custom-text-color-grey-1 text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">
+									Empowering organizations with battle-tested military talent and leadership philosophies through our veteran hiring initiatives, experiential L&amp;OD events, and impactful engagement programs.
+								</p>
+								<div class="d-flex flex-wrap gap-2 mb-md-5">
+									<a href="#hot-jobs" class="btn btn-gradient btn-rounded font-weight-semibold px-5 py-3 text-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Apply Now <i class="fas fa-arrow-right ms-2"></i></a>
+									<a href="https://www.militarytocorp.com/employers/employer-solutions" class="btn btn-secondary btn-outline btn-rounded font-weight-semibold px-5 py-3 text-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Hire Veterans <i class="fas fa-arrow-right ms-2"></i></a>
+								</div>
+								<div class="spacer d-none d-md-block" style="height: 290px;"></div>
+							</div>
+							<div class="col-md-6 pb-5">
+								<div class="hero-image-wrap mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" data-appear-animation-duration="1500ms">
+									<img src="assets/GoldenHourMilitaryPartnership.png" class="img-fluid" alt="Military professional shaking hands with a corporate leader at sunset" />
+									<div class="hero-floating-stat">
+										<strong>98.4%</strong>
+										<span>1-Year Corporate Retention<br>Across India &amp; Global MNCs</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- =========================================================================
+				     3. PORTO SECTION 2: OVERLAPPING 3 CARDS WITH EXACT USER CONTENT
+				     ========================================================================= -->
+				<section class="section position-relative bg-color-light border-0 m-0">
+					<!-- Curved SVG Top 1 (Exact Porto Geometry) -->
+					<svg class="custom-section-curved-top-1" width="100%" height="600px" xmlns="http://www.w3.org/2000/svg">
+					  	<path id="svg_1" d="m-12.66406,442.40068c352.72654,-76.36348 565.45337,5.45453 696.36219,19.99996c130.90882,14.54542 270.90852,-23.63632 367.27196,-47.27263c96.36344,-23.63631 379.99921,-154.54513 527.27163,-209.09047c147.27242,-54.54535 381.813,-92.55755 406.36076,-99.00598c12.27388,-3.22421 917.96684,-113.93032 715.00991,10.61478c-202.95693,124.5451 -210.46055,521.28714 -198.64021,540.29354c11.82034,19.0064 -2500.90899,-15.53962 -2500.0019,-16.36399c-0.90709,0.82437 -9.99798,-180.99343 -9.09089,-181.8178" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#f7f8f9"/>
+					  	<path id="svg_2" d="m-116.90461,507.88064c314.5448,-112.72704 523.63527,-21.81814 878.17999,12.72724c354.54471,34.54538 632.72595,-225.45407 978.17978,-294.54484c172.72691,-34.54538 291.36195,-62.7275 368.52007,-78.40952c77.15812,-15.68202 352.84215,-22.50036 359.66142,-7.04537c13.63854,30.90997 97.72734,614.54347 50.90961,639.99858c-46.81772,25.4551 -855.68236,4.54593 -1433.63569,1.81866c-577.95334,-2.72727 -1155.90718,-5.45466 -1155.45364,-5.45491" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#fbfcfc"/>
+					  	<path id="svg_3" d="m-115.93584,623.27542c234.54496,-132.72699 429.09001,-112.72703 678.1804,-83.63619c249.09039,29.09085 389.09011,30.90903 656.36228,-107.2725c267.27217,-138.18153 816.36193,-207.2723 1121.81584,-170.90873c305.45391,36.36356 -292.72666,-19.99996 -293.63778,-18.18228c71.36548,8.18218 627.05432,68.63506 626.48637,265.22584c-0.56794,196.59079 -20.11364,456.59134 -31.02284,531.13767c-10.90919,74.54633 -1561.82313,-36.3646 -1565.45948,-34.54642c-3.63636,1.81818 -1249.08831,-1.81818 -1248.18122,-1.81869c-0.90709,0.00051 39.09282,-234.54445 39.99992,-234.54496c-0.9071,0.00051 -4.54345,-76.36297 -3.63636,-76.36348" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff"/>
+					</svg>
+
+					<div class="container position-relative custom-negative-margin-1 z-index-3 pb-lg-5 mb-lg-3">
+						<!-- Floating Circles pos 9 to 13 -->
+						<div class="custom-circle custom-circle-medium custom-circle-pos-9 d-none d-md-block">
+							<div class="bg-color-secondary rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-big custom-circle-pos-10 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1850" data-appear-animation-duration="2s">
+							<div class="bg-color-tertiary rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-medium custom-circle-pos-11 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="2000" data-appear-animation-duration="2s">
+							<div class="custom-bg-color-grey-1 rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-small custom-circle-pos-12 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="2150" data-appear-animation-duration="2s">
+							<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-extra-small custom-circle-pos-13 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="2300" data-appear-animation-duration="2s">
+							<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100"></div>
+						</div>
+
+						<div class="row align-items-center">
+							<div class="col-lg-7 pe-lg-5">
+								<div class="row align-items-center">
+									<div class="col-md-6">
+										<!-- Card 1: Veteran Hiring -->
+										<div class="card position-relative border-0 custom-box-shadow-1 custom-border-radius-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="850">
+											<div class="custom-dots-rect-1" style="background-image: url(porto-assets/dots-group.png);"></div>
+											<div class="card-body text-center pt-5 pb-4 px-4">
+												<img src="assets/veteran-hiring.png" class="img-fluid rounded mb-3" style="height: 100px; width: 100%; object-fit: cover;" alt="Veteran Hiring" />
+												<h4 class="text-color-dark font-weight-semibold mb-2">Veteran Hiring</h4>
+												<p class="text-2 mb-3">We help corporate organisations across industries, hire top military talent including women &amp; PWD Veterans.</p>
+												<a href="https://www.militarytocorp.com/employers/employer-solutions" class="text-color-tertiary font-weight-bold">EXPLORE HIRING +</a>
+											</div>
+										</div>
+										<!-- Card 2: M2C Labs -->
+										<div class="card border-0 custom-box-shadow-1 custom-border-radius-1 mb-4">
+											<div class="card-body text-center pt-5 pb-4 px-4">
+												<img src="assets/m2c-labs.jpg" class="img-fluid rounded mb-3" style="height: 100px; width: 100%; object-fit: cover;" alt="M2C Labs" />
+												<h4 class="text-color-dark font-weight-semibold mb-2">M2C Labs</h4>
+												<p class="text-2 mb-3">We translate proven military leadership philosophies into bespoke experiential learning.</p>
+												<a href="https://www.militarytocorp.com/m2c-labs" class="text-color-secondary font-weight-bold">DISCOVER LABS +</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<!-- Card 3: Events & New Initiatives -->
+										<div class="card position-relative border-0 custom-box-shadow-1 custom-border-radius-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
+											<div class="custom-dots-rect-2" style="background-image: url(porto-assets/dots-group-2.png);"></div>
+											<div class="card-body text-center pt-5 pb-4 px-4">
+												<img src="assets/events.jpeg" class="img-fluid rounded mb-3" style="height: 100px; width: 100%; object-fit: cover;" alt="Events & New Initiatives" />
+												<h4 class="text-color-dark font-weight-semibold mb-2">Events &amp; New Initiatives</h4>
+												<p class="text-2 mb-3">We translate proven military leadership philosophies into bespoke experiential learning &amp; development programs, building high-performance teams across corporates, military organizations, and academic institutions.</p>
+												<a href="https://www.militarytocorp.com/events-and-new-initiatives" class="text-color-primary font-weight-bold">EXPLORE INITIATIVES +</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-5 pt-lg-5 ps-lg-4 mt-lg-5">
+								<h2 class="text-color-dark font-weight-semibold text-6 line-height-3 pt-5 mt-5 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
+									Experience That Moves Business Forward. Create a Better Brand!
+								</h2>
+								<span class="d-block mb-3 text-color-primary font-weight-semibold appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">
+									THE BATTLE-TESTED ADVANTAGE
+								</span>
+								<p class="lead appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
+									MilitaryToCorp (M2C) is India's leading military veteran hiring and leadership development platform, connecting disciplined service officers with high-growth corporate opportunities.
+								</p>
+								<p class="mb-4 pb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
+									We believe that every military professional possesses unmatched strategic depth, crisis agility, and integrity that translate directly into enterprise ROI, regardless of service branch or specialized trade.
+								</p>
+								<a href="https://www.militarytocorp.com/about-us" class="btn btn-gradient btn-rounded font-weight-semibold px-5 py-3 text-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
+									ABOUT MILITARYTOCORP
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- =========================================================================
+				     4. PORTO SECTION 7: HOT JOBS (EXACT USER ROLES & APPLICATION LINKS)
+				     ========================================================================= -->
+				<section class="section position-relative custom-bg-color-light-2 border-0 pt-4 m-0 section-anchor" id="hot-jobs">
+					<!-- Curved SVG Top 5 (Exact Porto Geometry) -->
+					<svg class="custom-section-curved-top-5" width="100%" height="284" xmlns="http://www.w3.org/2000/svg">
+					    <path id="svg_2" fill="#eff1f3" stroke="#000" stroke-width="0" d="m-30.75698,18.18081c99.6013,28.33304 337.54319,327.06425 868.97187,168.96887c265.71434,-79.04769 585.03969,-5.59538 690.67474,14.9602c105.63504,20.55559 381.87048,2.11063 555.67444,-75.27753c86.90199,-38.69407 736.04117,-78.60276 742.95015,12.26524c6.90898,90.86801 -66.08835,361.6009 -103.97283,363.40912c-37.88449,1.80823 -2793.7397,-55.67435 -2792.62804,-56.56315"/>
+					</svg>
+
+					<div class="container position-relative z-index-1 pb-lg-4 mb-lg-5">
+						<!-- Floating Circles pos 44 to 46 -->
+						<div class="custom-circle custom-circle-medium custom-circle-pos-44 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="200">
+							<div class="custom-bg-color-grey-1 rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-small custom-circle-pos-45 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="500">
+							<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100"></div>
+						</div>
+						<div class="custom-circle custom-circle-extra-small custom-circle-pos-46 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="800">
+							<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100"></div>
+						</div>
+
+						<div class="row justify-content-center mb-3">
+							<div class="col-md-10 col-lg-8 text-center">
+								<div class="overflow-hidden">
+									<span class="d-block text-color-primary font-weight-semibold appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">CAREER OPPORTUNITIES</span>
+								</div>
+								<div class="overflow-hidden mb-2">
+									<h2 class="font-weight-bold text-color-quaternary text-7 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">Hot Jobs</h2>
+								</div>
+								<p class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="550">
+									Explore opportunities where experience, discipline, and leadership can make a difference.
+								</p>
+							</div>
+						</div>
+
+						<!-- Interactive Toolbar -->
+						<div class="jobs-toolbar-card">
+							<div class="row align-items-center g-3">
+								<div class="col-lg-7">
+									<div class="jobs-filter-tabs">
+										<button type="button" class="jobs-filter-btn is-active" data-category="all">All Positions</button>
+										<button type="button" class="jobs-filter-btn" data-category="leadership">Corporate Leadership</button>
+										<button type="button" class="jobs-filter-btn" data-category="tech">Tech &amp; IT</button>
+										<button type="button" class="jobs-filter-btn" data-category="security">Security &amp; Facilities</button>
+									</div>
+								</div>
+								<div class="col-lg-5">
+									<div class="d-flex align-items-center gap-3">
+										<div class="jobs-search-wrap">
+											<i class="fas fa-search jobs-search-icon"></i>
+											<input type="text" class="jobs-search-input" id="portoJobSearch" placeholder="Filter title, skills, or city..." />
+										</div>
+										<span class="text-2 text-muted ws-nowrap" id="portoJobsCount">Showing <strong>5</strong> positions</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Jobs Grid (Populated dynamically by porto-m2c.js with exact roles) -->
+						<div class="row" id="portoJobsGrid"></div>
+
+						<div class="text-center mt-4">
+							<a href="https://www.militarytocorp.com/job-search" class="btn btn-secondary btn-outline btn-rounded font-weight-semibold px-5 py-3 text-3">
+								View All Jobs <i class="fas fa-arrow-right text-2 ms-2"></i>
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- =========================================================================
+				     5. DUAL CALL-TO-ACTION LAUNCHPAD (EXACT USER CONTENT)
+				     ========================================================================= -->
+				<section class="section custom-bg-color-light-1 border-0 py-5 m-0">
+					<div class="container py-4">
+						<div class="row pricing-table custom-pricing-table-style-1 justify-content-center mb-5">
+							
+							<!-- For Organizations -->
+							<div class="col-md-8 col-lg-6 mb-4 mb-lg-0">
+								<div class="plan plan-featured bg-color-quaternary text-center p-4">
+									<span class="plan-popular-tag text-color-light font-weight-bold">ENTERPRISE</span>
+									<div class="plan-header bg-color-quaternary pt-5 px-4">
+										<h4 class="text-color-light font-weight-bold text-5 mt-4 mb-2">For Organizations</h4>
+										<p class="text-color-light font-weight-light opacity-8 px-2 mb-0" style="font-size: 1.05rem; line-height: 1.6;">
+											If you are looking to explore how military veterans can add value to your organizations, <a href="https://www.militarytocorp.com/contact-us" class="text-color-primary font-weight-bold text-decoration-underline">Contact Us</a> and we will be glad to assist.
+										</p>
+									</div>
+									<div class="plan-footer pt-4 pb-4">
+										<a href="https://www.militarytocorp.com/contact-us" class="btn btn-gradient btn-rounded font-weight-semibold px-5 py-3 text-3">
+											Contact Us <i class="fas fa-arrow-right text-2 ms-2"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- For Military Veterans -->
+							<div class="col-md-8 col-lg-6">
+								<div class="plan bg-white text-center p-4">
+									<div class="plan-header bg-white pt-5 px-4">
+										<span class="d-block text-color-primary font-weight-bold mb-1">FOR VETERANS</span>
+										<h4 class="text-color-dark font-weight-bold text-color-quaternary text-5 mb-2">Most comprehensive job portal for veterans</h4>
+										<p class="px-2 mb-0 text-muted" style="font-size: 0.95rem; line-height: 1.65;">
+											We at M2C have unparalleled touch-points with veterans' career post-retirement, we know the secret sauce for that winning veteran resume because; We are Recruiters, We are Industry Insiders &amp; We are Veterans
+										</p>
+									</div>
+									<div class="plan-footer pt-4 pb-4 d-flex justify-content-center gap-3">
+										<a href="https://www.militarytocorp.com/job-seeker/login" class="btn btn-secondary btn-outline btn-rounded font-weight-semibold px-4 py-3 text-3" target="_blank" rel="noopener">
+											Login
+										</a>
+										<a href="https://www.militarytocorp.com/job-seeker/registration" class="btn btn-gradient btn-rounded font-weight-semibold px-4 py-3 text-3" target="_blank" rel="noopener">
+											Register
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+			</div> 
+
+			<!-- =========================================================================
+			     6. PORTO LUXURY FOOTER (WITH EXACT USER FOOTER CONTENT & LINKS)
+			     ========================================================================= -->
+			<footer id="footer" class="bg-color-quaternary position-relative mt-0">
+				<!-- Curved SVG Top 7 (Exact Porto Geometry) -->
+				<svg class="custom-section-curved-top-7" width="100%" height="400" xmlns="http://www.w3.org/2000/svg">
+					<path id="svg_2" fill="#323232" stroke="#000" stroke-width="0" d="m-16.68437,95.44889c0,0 5.33335,176.00075 660.00283,93.33373c327.33474,-41.33351 503.33549,15.3334 639.00274,35.66682c135.66725,20.33342 59.66691,9.66671 358.33487,28.33346c298.66795,18.66676 268.66829,-45.00088 382.66831,-112.00048c114.00002,-66.9996 718.31698,-59.48704 1221.66946,95.563c503.35248,155.05004 -221.83202,184.10564 -243.66935,197.60521c-21.83733,13.49958 -3008.67549,-19.83371 -3008.00467,-20.83335c-0.67082,0.99964 -30.00428,-232.33469 -10.00419,-317.66839z" class="svg-fill-color-quaternary"/>
+				</svg>
+
+				<div class="container position-relative mt-0 mb-4">
+					<div class="row py-5">
+						<!-- Col 1: MilitaryToCorp-M2C Quick Links -->
+						<div class="col-lg-3 mb-5 mb-lg-0">
+							<a href="https://www.militarytocorp.com/home">
+								<img src="assets/logo.png" class="img-fluid mb-3" alt="MilitaryToCorp-M2C Logo" style="height: 40px; width: auto;" />
+							</a>
+							<h4 class="font-weight-bold text-color-light text-4 ls-0 pb-1 mb-2">MilitaryToCorp-M2C</h4>
+							<ul class="list list-unstyled">
+								<li class="mb-1"><a href="https://www.militarytocorp.com/home" class="text-color-light opacity-7 text-color-hover-primary">Home</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/about-us" class="text-color-light opacity-7 text-color-hover-primary">About Us</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/job-search" class="text-color-light opacity-7 text-color-hover-primary">Job Search</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/blogs" class="text-color-light opacity-7 text-color-hover-primary">Blogs</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/initiatives" class="text-color-light opacity-7 text-color-hover-primary">Initiatives</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/events" class="text-color-light opacity-7 text-color-hover-primary">Events</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/m2c-labs" class="text-color-light opacity-7 text-color-hover-primary">M2C Labs</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/contact-us" class="text-color-light opacity-7 text-color-hover-primary">Contact Us</a></li>
+							</ul>
+						</div>
+
+						<!-- Col 2: About Us Links -->
+						<div class="col-lg-3 mb-4 mb-lg-0">
+							<h4 class="font-weight-bold text-color-light text-5 ls-0 pb-1 mb-2">About Us</h4>
+							<ul class="list list-unstyled">
+								<li class="mb-1"><a href="https://www.militarytocorp.com/about-us#our-philosophy" class="text-color-light opacity-7 text-color-hover-primary">Our Philosophy</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/about-us#our-vision" class="text-color-light opacity-7 text-color-hover-primary">Our Vision</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/about-us#our-mission" class="text-color-light opacity-7 text-color-hover-primary">Our Mission</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/about-us#our-story" class="text-color-light opacity-7 text-color-hover-primary">Our Story</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/about-us#our-people" class="text-color-light opacity-7 text-color-hover-primary">Our People</a></li>
+							</ul>
+						</div>
+
+						<!-- Col 3: Services For Companies -->
+						<div class="col-lg-3 mb-4 mb-lg-0">
+							<h4 class="font-weight-bold text-color-light text-5 ls-0 pb-1 mb-2">Services For Companies</h4>
+							<ul class="list list-unstyled">
+								<li class="mb-1"><a href="https://www.militarytocorp.com/employers/employer-solutions/volume-hiring" class="text-color-light opacity-7 text-color-hover-primary">Volume Hiring</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/employers/employer-solutions/multiple-companies-career-fair" class="text-color-light opacity-7 text-color-hover-primary">Multiple Companies Career Fair</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/employers/employer-solutions/single-company-career-fair" class="text-color-light opacity-7 text-color-hover-primary">Single Company Career Fair</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/employers/employer-solutions/corporate-awareness-workshop" class="text-color-light opacity-7 text-color-hover-primary">Corporate Awareness Workshop</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/employers/employer-solutions/veteran-hiring-solutions" class="text-color-light opacity-7 text-color-hover-primary">Veteran Hiring Solutions</a></li>
+							</ul>
+						</div>
+
+						<!-- Col 4: Services For Veteran -->
+						<div class="col-lg-3">
+							<h4 class="font-weight-bold text-color-light text-5 ls-0 pb-1 mb-2">Services For Veteran</h4>
+							<ul class="list list-unstyled">
+								<li class="mb-1"><a href="https://www.militarytocorp.com/job-seekers/transition-services/career-transition-program-ctp" class="text-color-light opacity-7 text-color-hover-primary">Career Transition Program - CTP</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/job-seekers/transition-services/resume-building-services-rbs" class="text-color-light opacity-7 text-color-hover-primary">Resume Building Services - RBS</a></li>
+								<li class="mb-1"><a href="https://www.militarytocorp.com/job-seekers/transition-services/career-transition-workshop-ctw" class="text-color-light opacity-7 text-color-hover-primary">Career Transition Workshop - CTW</a></li>
+							</ul>
+							<div class="mt-4">
+								<a href="https://www.militarytocorp.com/job-seeker/login" class="btn btn-outline-light btn-rounded px-3 py-1 text-2 me-2" target="_blank" rel="noopener">Login</a>
+								<a href="https://www.militarytocorp.com/job-seeker/registration" class="btn btn-gradient btn-rounded px-3 py-1 text-2" target="_blank" rel="noopener">Register</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Disclaimer Card (Exact User Disclaimer) -->
+					<div class="p-3 mb-4 rounded" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.08); font-size: 12px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
+						<strong>Disclaimer :</strong> MilitaryToCorp-M2C, directly or indirectly, doesn't charge / accept any amount or security deposit from any job seekers during any stage of the selection process or while inviting candidates for an interview or at the offer/joining stage. If any person receives any such unsolicited or fraudulent communication from MilitaryToCorp-M2C towards payment of money, it is recommended not to respond. Kindly inform us of such communication immediately at <a href="mailto:info@militarytocorp.com" class="text-color-primary">info@militarytocorp.com</a>
+					</div>
+				</div>
+
+				<!-- Copyright Bar (Exact User Copyright) -->
+				<div class="footer-copyright bg-color-quaternary">
+					<div class="container py-2">
+						<hr class="bg-color-light opacity-1 mb-0">
+						<div class="row justify-content-between align-items-center py-4">
+							<div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+								<p class="text-color-light opacity-6 text-2 mb-0">Copyright 2023 MilitaryToCorp-M2C . All rights reserved</p>
+							</div>
+							<div class="col-md-6 text-center text-md-end">
+								<div class="d-inline-flex gap-3 text-2 text-color-light opacity-6">
+									<a href="https://www.militarytocorp.com/privacy-policy" class="text-color-light">Privacy Policy</a>
+									<span>|</span>
+									<a href="https://www.militarytocorp.com/refund-cancellation" class="text-color-light">Refund &amp; Cancellation</a>
+									<span>|</span>
+									<a href="https://www.militarytocorp.com/terms-conditions" class="text-color-light">Terms &amp; Conditions</a>
+									<span>|</span>
+									<span class="text-color-light">Shipping &amp; Delivery</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
+		<!-- =========================================================================
+		     7. JOB DETAILS MODAL
+		     ========================================================================= -->
+		<div class="modal-backdrop-custom" id="portoJobModal" role="dialog" aria-modal="true" aria-labelledby="modalJobTitle">
+			<div class="modal-content-porto">
+				<div class="modal-header-porto">
+					<div>
+						<span class="job-badge-id" id="modalJobId">Job ID</span>
+						<h3 class="job-title-porto mb-1" id="modalJobTitle">Job Title</h3>
+						<div class="job-meta-row mb-0">
+							<span class="job-meta-item"><i class="fas fa-building"></i> Company - <span id="modalJobCompany">Company</span></span>
+							<span class="job-meta-item"><i class="fas fa-map-marker-alt"></i> <span id="modalJobLocation">Location</span></span>
+							<span class="job-meta-item"><i class="fas fa-briefcase"></i> <span id="modalJobType">Full-Time</span></span>
+						</div>
+					</div>
+					<button type="button" class="modal-close-porto" id="portoModalClose" aria-label="Close dialog">✕</button>
+				</div>
+				<div class="modal-body-porto">
+					<h5 class="text-color-dark font-weight-bold mb-2">Description</h5>
+					<p class="text-muted text-3 mb-3" id="modalJobDesc"></p>
+
+					<h5 class="text-color-dark font-weight-bold mb-2">Key Competencies</h5>
+					<div class="job-skills-wrap mb-3" id="modalJobSkills"></div>
+
+					<div class="d-flex gap-3 mt-4">
+						<a href="https://www.militarytocorp.com/job-seeker/login" target="_blank" rel="noopener" class="btn btn-gradient btn-rounded px-4 py-2 text-2 font-weight-bold">
+							Apply Now <i class="fas fa-external-link-alt ms-1 text-1"></i>
+						</a>
+						<a href="#" target="_blank" rel="noopener" class="btn btn-secondary btn-outline btn-rounded px-4 py-2 text-2 font-weight-bold" id="modalDirectLink">
+							View Full Listing on M2C <i class="fas fa-arrow-right ms-1 text-1"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Floating Help Button -->
+		<div class="porto-float-help" id="portoFloatHelp" title="Quick Assistance Helpline">
+			<i class="fas fa-headset text-3"></i>
+			<span>Help</span>
+		</div>
+
+		<div class="porto-toast" id="portoToast" role="alert" aria-live="polite">
+			<i class="fas fa-check-circle"></i>
+			<span id="portoToastMsg">Notification</span>
+		</div>
+
+		<!-- Vendor Scripts -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Porto M2C Custom Interactive Logic -->
+		<script src="porto-m2c.js"></script>
+
+	</body>
 </html>

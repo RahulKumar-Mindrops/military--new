@@ -10,19 +10,19 @@
    Design Tokens
    -------------------------------------------------------------------------- */
 :root {
-  /* Deep Olive Forest & Military Tones (from Reference) */
-  --bas-dark: #29270B;
-  --bas-dark-deep: #201F0A;
-  --bas-forest: #2a3520;
-  --bas-forest-deep: #1b2414;
-  --bas-forest-light: #3f4e30;
+  /* Dark neutrals (brand charcoal) */
+  --bas-dark: #323232;
+  --bas-dark-deep: #1B1B1B;
+  --bas-forest: #323232;
+  --bas-forest-deep: #1B1B1B;
+  --bas-forest-light: #3d3d3d;
 
-  /* Rich Warm Gold / Mustard Accents (from Reference) */
-  --bas-gold: #E5B526;
-  --bas-gold-bright: #F5D34A;
-  --bas-gold-light: #F0D56A;
-  --bas-gold-soft: #FBF6E4;
-  --bas-gold-hover: #C99A16;
+  /* Pink accents (replaces olive/gold green) */
+  --bas-gold: #e23c8e;
+  --bas-gold-bright: #e5529b;
+  --bas-gold-light: #e75da1;
+  --bas-gold-soft: rgba(226, 60, 142, 0.12);
+  --bas-gold-hover: #cd1e74;
 
   /* Warm Ivory Canvas */
   --bas-ivory: #F8F5ED;
