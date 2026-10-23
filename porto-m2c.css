@@ -1048,6 +1048,159 @@ a {
 }
 
 /* --------------------------------------------------------------------------
+   M2C Bottom CTA (army pattern background + equal cards)
+   -------------------------------------------------------------------------- */
+.m2c_bottom {
+  position: relative;
+  width: 100%;
+  min-height: 320px;
+  background-image: url("assets/bg/army_pattern_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.m2c_overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #1B1B1B;
+  opacity: 0.72;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.m2c-cta-inner {
+  z-index: 2;
+}
+
+.m2c-cta-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 100%;
+  height: 100%;
+  padding: 2rem 1.75rem;
+  background: rgba(27, 27, 27, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.28);
+}
+
+.m2c-cta-eyebrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #cfd4b8;
+}
+
+.m2c-cta-title {
+  color: #ffffff !important;
+  font-size: clamp(1.2rem, 2.2vw, 1.55rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  margin: 0 !important;
+  min-height: 2.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m2c-cta-desc {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0;
+  flex: 1 1 auto;
+  max-width: 34rem;
+}
+
+.m2c-cta-inline-link {
+  color: #dce3b5 !important;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.m2c-cta-inline-link:hover {
+  color: #ffffff !important;
+}
+
+.m2c-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  min-height: 48px;
+}
+
+.trasparent-btn-white {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  min-width: 110px;
+  height: 38px;
+  padding: 0 14px !important;
+  text-decoration: none !important;
+  border: 1.5px solid #ffffff !important;
+  border-radius: var(--m2c-btn-radius) !important;
+  color: #ffffff !important;
+  background: transparent !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1 !important;
+  z-index: 1;
+  white-space: nowrap;
+  width: auto !important;
+  box-shadow: none !important;
+}
+
+.trasparent-btn-white::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--m2c-olive, #4B5320);
+  transform: translateX(-100%);
+  transition: transform 0.35s ease;
+  z-index: -1;
+}
+
+.trasparent-btn-white:hover::before {
+  transform: translateX(0);
+}
+
+.trasparent-btn-white:hover {
+  color: #ffffff !important;
+  border-color: var(--m2c-olive, #4B5320) !important;
+}
+
+@media (max-width: 767.98px) {
+  .m2c-cta-inner {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .m2c-cta-card {
+    padding: 1.5rem 1.2rem;
+  }
+
+  .m2c-cta-title {
+    min-height: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
    Recent Blog Section
    -------------------------------------------------------------------------- */
 .our-blog {
