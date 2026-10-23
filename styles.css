@@ -17,12 +17,12 @@
   --bas-forest-deep: #1B1B1B;
   --bas-forest-light: #3d3d3d;
 
-  /* Pink accents (replaces olive/gold green) */
-  --bas-gold: #e23c8e;
-  --bas-gold-bright: #e5529b;
-  --bas-gold-light: #e75da1;
-  --bas-gold-soft: rgba(226, 60, 142, 0.12);
-  --bas-gold-hover: #cd1e74;
+  /* Military olive accents */
+  --bas-gold: #4B5320;
+  --bas-gold-bright: #5D6629;
+  --bas-gold-light: #6A7430;
+  --bas-gold-soft: rgba(75, 83, 32, 0.12);
+  --bas-gold-hover: #3F461B;
 
   /* Warm Ivory Canvas */
   --bas-ivory: #F8F5ED;

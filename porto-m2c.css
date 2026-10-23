@@ -140,7 +140,7 @@ a {
 }
 
 #header .header-top a:hover {
-  color: var(--primary, #e23c8e);
+  color: var(--primary, #4B5320);
 }
 
 #header .header-logo {
@@ -465,7 +465,7 @@ a {
 
 #header .header-nav-main nav > ul > li > a.active,
 #header .header-nav-main nav > ul > li > a:hover {
-  color: var(--primary, #e23c8e) !important;
+  color: var(--primary, #4B5320) !important;
   background: transparent !important;
 }
 
@@ -485,8 +485,8 @@ a {
 }
 
 #header .header-nav-main nav > ul > li.dropdown .dropdown-menu a:hover {
-  background-color: rgba(226, 60, 142, 0.08);
-  color: var(--primary, #e23c8e);
+  background-color: rgba(75, 83, 32, 0.08);
+  color: var(--primary, #4B5320);
 }
 
 .header-btn-action {
@@ -562,7 +562,7 @@ a {
 }
 
 .ticker-accent {
-  color: var(--primary, #e23c8e);
+  color: var(--primary, #4B5320);
   margin: 0 12px;
 }
 
@@ -628,7 +628,7 @@ a {
 
 .hero-floating-stat strong {
   font-size: 24px;
-  color: var(--primary, #e23c8e);
+  color: var(--primary, #4B5320);
   line-height: 1;
 }
 
@@ -744,13 +744,13 @@ a {
 .job-card-porto:hover {
   transform: translateY(-6px);
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.1);
-  border-color: rgba(226, 60, 142, 0.3);
+  border-color: rgba(75, 83, 32, 0.3);
 }
 
 .job-badge-id {
   font-size: 11px;
   font-weight: 700;
-  color: var(--tertiary, #e23c8e);
+  color: var(--tertiary, #4B5320);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: 6px;
@@ -781,7 +781,7 @@ a {
 }
 
 .job-meta-item i {
-  color: var(--primary, #e23c8e);
+  color: var(--primary, #4B5320);
   font-size: 12px;
 }
 
@@ -899,17 +899,17 @@ a {
 
 .lens-side-military {
   background: #f8f9fb;
-  border-left: 4px solid var(--secondary, #a33188);
+  border-left: 4px solid var(--secondary, #3A4119);
 }
 
 .lens-side-corporate {
   background: #fdf6fa;
-  border-left: 4px solid var(--primary, #e23c8e);
+  border-left: 4px solid var(--primary, #4B5320);
 }
 
 .lens-arrow-divider {
   font-size: 26px;
-  color: var(--primary, #e23c8e);
+  color: var(--primary, #4B5320);
   font-weight: 700;
   text-align: center;
 }
@@ -1005,7 +1005,7 @@ a {
 }
 
 .porto-toast i {
-  color: var(--primary, #e23c8e);
+  color: var(--primary, #4B5320);
   font-size: 18px;
 }
 
@@ -1045,7 +1045,7 @@ a {
 }
 
 .our-blog .card-title a:hover {
-  color: var(--primary, #e23c8e) !important;
+  color: var(--primary, #4B5320) !important;
 }
 
 .our-blog .btn-gradient:hover {
@@ -1103,8 +1103,8 @@ img {
 }
 
 .hero-badge-m2c {
-  background: rgba(226, 60, 142, 0.12);
-  color: var(--primary, #e23c8e);
+  background: rgba(75, 83, 32, 0.12);
+  color: var(--primary, #4B5320);
   border-radius: 20px;
   font-size: 0.75rem;
   letter-spacing: 1px;
